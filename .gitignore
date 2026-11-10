@@ -1,0 +1,7 @@
+.probe/
+node_modules/
+probe*.mjs
+inspect*.mjs
+details.mjs
+*.inspect.ndjson
+.excel-tmp/
