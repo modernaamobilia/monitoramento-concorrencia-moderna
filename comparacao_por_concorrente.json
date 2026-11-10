@@ -1,0 +1,142 @@
+[
+  {
+    "ref": 0,
+    "store": "Easy House",
+    "id": "T1",
+    "status": "Similar parcial",
+    "note": "Alonzo: 100% MDF, 230 × 230 × 47 cm (A × L × P), 161 kg, 6 portas e 4 gavetas. Frente ao Toronto: +15 cm de altura, +10 cm de largura, +0,5 cm de profundidade e 2 portas a menos. Medidas e peso enviados pelo usuário em 10/11/2026. Sem método de envio nos oito CEPs."
+  },
+  {
+    "ref": 0,
+    "store": "MadeiraMadeira",
+    "id": "T2",
+    "status": "Similar próximo",
+    "note": "Jatobá Plus: 100% MDF, 8 portas, 4 gavetas, 220 × 220 × 46,5 cm. Mesma largura e profundidade do Toronto; 5 cm mais alto. Sob encomenda."
+  },
+  {
+    "ref": 0,
+    "store": "Bom Pastor",
+    "id": "T3",
+    "status": "Similar parcial",
+    "note": "Torino: 100% MDF e 4 gavetas, 220 × 205 × 55 cm. Possui 3 portas de correr e espelho, diferente das 8 portas de abrir do Toronto."
+  },
+  {
+    "ref": 0,
+    "store": "Madesa",
+    "id": "T4",
+    "status": "Similar parcial",
+    "note": "Royale: 100% MDF e 4 gavetas, 218 × 231 × 55 cm. Possui 3 portas de correr. Comparação individual mantida, sem tratá-lo como equivalente direto."
+  },
+  {
+    "ref": 1,
+    "store": "Easy House",
+    "id": null,
+    "status": "Anúncio a definir",
+    "note": "Nenhuma mesa avulsa MDF de 180 × 90 cm confirmada. Os conjuntos Apogeu incluem cadeiras e MDF/MDP. Envie o anúncio que deseja usar."
+  },
+  {
+    "ref": 1,
+    "store": "MadeiraMadeira",
+    "id": "C1",
+    "status": "Similar com ressalva",
+    "note": "Dublin sem vidro: 80 × 180 × 90 cm, canto copo, mesa avulsa e 45,75 kg. Título anuncia 100% MDF; ficha informa tampo MDF e base MDP. Divergência registrada. Novo anúncio 464706750; preço, frete e prazo coletados em 10/11/2026."
+  },
+  {
+    "ref": 1,
+    "store": "Bom Pastor",
+    "id": "C2",
+    "status": "Similar com ressalva",
+    "note": "Nina avulsa: 100% MDF, 80 × 180 × 90 cm; acrescenta vidro colado de 4 mm e bordas em PVC."
+  },
+  {
+    "ref": 1,
+    "store": "Madesa",
+    "id": "C4",
+    "status": "Similar com ressalva",
+    "note": "5388 sem vidro, conforme correção do usuário. 78 × 180 × 90 cm: mesma área do tampo e 2 cm mais baixa que a Carolina. MDP contra MDF; anunciada para escritório, com base trapézio. Peso não informado. Coleta 10/11/2026."
+  },
+  {
+    "ref": 2,
+    "store": "Easy House",
+    "id": null,
+    "status": "Anúncio a definir",
+    "note": "A busca por closet não retornou correspondente confirmado. Envie o anúncio que deseja usar."
+  },
+  {
+    "ref": 2,
+    "store": "MadeiraMadeira",
+    "id": "L3",
+    "status": "Similar com ressalva",
+    "note": "Vênus: 217 × 180 × 45 cm; +9 cm de altura, -2 cm de largura e profundidade. MDP contra MDF, 4 gavetas extras. Vendido pela Webcontinental Marketplace na MadeiraMadeira. Peso não informado; coleta 10/11/2026."
+  },
+  {
+    "ref": 2,
+    "store": "Bom Pastor",
+    "id": null,
+    "status": "Anúncio a definir",
+    "note": "Nenhum closet correspondente confirmado; a busca abriu página indisponível. Envie o anúncio que deseja usar."
+  },
+  {
+    "ref": 2,
+    "store": "Madesa",
+    "id": "L2",
+    "status": "Similar com ressalva",
+    "note": "Vênus 180: 217 × 180 × 45 cm; +9 cm de altura, -2 cm de largura e -2 cm de profundidade. MDP contra MDF; 4 gavetas contra nenhuma. Mais próximo que o Vênus 121 cm. Peso não informado. Indicação do usuário; coleta em 10/11/2026."
+  },
+  {
+    "ref": 3,
+    "store": "Easy House",
+    "id": "A3",
+    "status": "Indicado pelo usuário — ressalvas",
+    "note": "Apogeu Suede escolhido pelo usuário. Mesa 78 × 170 × 90 cm (2 cm mais baixa e 10 cm menor); MDF/MDP, cantos arredondados e assento D20, versus MDF, cantos retos e D23 da Alvorada. Peso não informado. Sem método de envio nos oito CEPs."
+  },
+  {
+    "ref": 3,
+    "store": "MadeiraMadeira",
+    "id": "A1",
+    "status": "Mesmo modelo — ressalva na ficha",
+    "note": "Alvorada/Melissa Rufato vendido pela Webcontinental, não pela Moderna. Mesmas medidas e peso. Descrição informa 100% MDF, mas o campo genérico do tampo cita MDF/MDP/Vidro; confirmar com vendedor."
+  },
+  {
+    "ref": 3,
+    "store": "Bom Pastor",
+    "id": "A2",
+    "status": "Similar próximo",
+    "note": "Mavie/Ayla: 100% MDF + vidro, mesa 80 × 180 × 90 cm e 6 cadeiras estofadas. Design da mesa e das cadeiras diferente."
+  },
+  {
+    "ref": 3,
+    "store": "Madesa",
+    "id": null,
+    "status": "Anúncio a definir",
+    "note": "Madison tem tampo MDP e não possui vidro. Nenhum conjunto equivalente adequado em MDF confirmado. Envie o anúncio que deseja usar."
+  },
+  {
+    "ref": 4,
+    "store": "Easy House",
+    "id": "K3",
+    "status": "Similar com ressalva",
+    "note": "Easy Like: MDF, 6 portas e 6 gavetas; 270 cm de largura (-3 cm), 56 cm de profundidade. Altura e peso não confirmados no anúncio. Vendido pela Easy House e entregue pelo Magalu; oferta em marketplace, não no site próprio. Coleta 10/11/2026."
+  },
+  {
+    "ref": 4,
+    "store": "MadeiraMadeira",
+    "id": "K1",
+    "status": "Similar muito próximo",
+    "note": "Vision Rufato: 100% MDF 15 mm, 235 × 273 × 56 cm, 6 portas por toque e 6 gavetas telescópicas reforçadas. Vendedor MadeiraMadeira."
+  },
+  {
+    "ref": 4,
+    "store": "Bom Pastor",
+    "id": "K2",
+    "status": "Similar muito próximo",
+    "note": "Monza: 100% MDF, 236 × 274 × 55 cm, 6 portas e 6 gavetas. Diferença de apenas 1 cm em cada dimensão. Peso e cor diferentes."
+  },
+  {
+    "ref": 4,
+    "store": "Madesa",
+    "id": "K4",
+    "status": "Similar parcial",
+    "note": "Neo: 218 × 280 × 56 cm; -17 cm de altura, +7 cm de largura. MDP contra MDF; 7 portas/4 gavetas contra 6/6. Modulado. Similar parcial, fora da disputa principal. Peso não informado. Coleta 10/11/2026."
+  }
+]

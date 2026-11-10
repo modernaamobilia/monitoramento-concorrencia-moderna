@@ -1,0 +1,70 @@
+PUBLICAÇÃO DO PAINEL MODERNA
+Atualização: 10/11/2026
+
+1. O QUE FOI CORRIGIDO
+Os indicadores usam o CEP, a loja e a similaridade selecionados.
+A opção Todos os 8 CEPs muda o resumo para oito destinos.
+O ganhador considera os anúncios elegíveis dentro do recorte.
+Parciais não entram no ranking principal.
+Gráficos ficam ocultos até clicar em Visualizar por gráficos.
+Datas históricas afetam somente a seção de histórico, identificada na tela.
+
+2. PUBLICAÇÃO ESTÁTICA
+Publique index.html e o Excel na mesma pasta; o HTML funciona sozinho,
+mas o botão Baixar Excel requer o arquivo XLSX ao lado.
+O .nojekyll está incluído para publicação estática.
+Ative GitHub Pages nas configurações do repositório, selecionando a origem.
+O painel não exige Firebase, banco de dados ou bibliotecas externas.
+
+ATENÇÃO À VISIBILIDADE:
+GitHub Pages normalmente publica um site acessível na internet mesmo
+quando o repositório de origem é privado. Repositório privado não é login
+do painel. Para restringir acesso, escolha hospedagem com autenticação
+real no servidor ou proxy de acesso; não grave senhas no JavaScript.
+Documentação: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+3. HISTÓRICO
+historico_cotacoes.json guarda uma linha por anúncio + URL + CEP + data.
+Campos:
+offerId, url, cep, collectedAt (AAAA-MM-DD), price, freight,
+deliveryFrom, deliveryTo, businessDays.
+price e freight são números em reais, não centavos.
+Frete desconhecido é null; zero significa frete grátis confirmado.
+Nunca substitua o registro anterior por uma coleta de outra data.
+Mantenha offerId e URL estáveis para o mesmo anúncio.
+Troca de URL abre uma série diferente.
+Não copie cotações de outros produtos nem invente datas anteriores.
+Registre uma única cotação final por anúncio, URL, CEP e data.
+Se desejar múltiplas coletas diárias, o formato deve evoluir para timestamp.
+
+Cada anúncio tem, por enquanto, uma data de coleta disponível.
+09 e 10/11 pertencem a anúncios diferentes. Isso não mede variação
+do mesmo anúncio. A tabela mostra essa ausência e não inventa tendência.
+
+4. ATUALIZAR OS ARQUIVOS
+A pasta fontes contém os arquivos de construção do HTML.
+Instale Node.js compatível e execute nela:
+node build_html.mjs
+Sem dependências de terceiros para esta geração HTML.
+O construtor preserva as linhas anteriores do histórico e acrescenta
+chaves que ainda não existam; ele não corrige registros já existentes.
+Para corrigir uma coleta errada, corrija explicitamente a linha no JSON.
+Para novas coletas, acrescente linhas ao historico_cotacoes.json de fontes.
+Atualize dados_revisados.json para a comparação atual e os vínculos em
+comparacao_por_concorrente.json quando escolher novos anúncios.
+Depois copie o index gerado e o histórico para a pasta publicada.
+Editar só o JSON publicado não altera o index: os dados estão incorporados.
+O Excel não é regenerado por este construtor HTML; precisa de atualização
+se preços, fretes, anúncios ou datas da base mudarem.
+
+5. COLETA AUTOMÁTICA
+Publicar o HTML não pesquisa anúncios nem consulta frete automaticamente.
+Para isso, é necessário um coletor separado por loja ou uma rotina manual
+padronizada, validação de material/medidas/vendedor, registro das coletas
+e regeneração do painel. Só após definir esses coletores faz sentido
+agendar execução e publicação por GitHub Actions.
+Credenciais e chaves devem ficar fora do HTML e dos arquivos publicados.
+
+6. VERIFICAÇÃO
+Cálculos e cenários de filtros foram verificados automaticamente.
+A prévia visual no navegador não estava acessível neste ambiente.

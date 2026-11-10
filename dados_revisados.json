@@ -1,0 +1,1389 @@
+{
+  "products": [
+    {
+      "id": "M1",
+      "ref": 0,
+      "store": "Moderna",
+      "model": "Toronto",
+      "cls": "Referência",
+      "mat": "100% MDF",
+      "dims": [
+        215,
+        220,
+        46.5
+      ],
+      "net": 137.17,
+      "packed": 147.72,
+      "doors": 8,
+      "drawers": 4,
+      "chairs": 0,
+      "price": 1349.9,
+      "card": "12x 118,41",
+      "variant": "SKU 1279; seleção de cor não identificada",
+      "note": "8 portas de abrir, 4 gavetas telescópicas, 8 prateleiras e 4 cabideiros de alumínio. Dados e fretes da consulta original de 09/11/2026.",
+      "seller": "Moderna Mobília",
+      "url": "https://www.modernamobilia.com.br/produtos/guarda-roupa-casal-toronto-mdf-8-portas-4-gavetas-moderna-mobilia?referenceId=1727123148301335",
+      "row": 7
+    },
+    {
+      "id": "M2",
+      "ref": 1,
+      "store": "Moderna",
+      "model": "Carolina",
+      "cls": "Referência",
+      "mat": "MDF",
+      "dims": [
+        80,
+        180,
+        90
+      ],
+      "net": null,
+      "packed": 39.42,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 0,
+      "price": 449.9,
+      "card": "6x 78,93",
+      "variant": "Naturalle; SKU 2319",
+      "note": "Somente mesa. Tampo laminado sem vidro, canto copo e base com pintura decorativa rattan. Peso disponível é da embalagem. Preço, frete e prazo conferidos em 10/11/2026.",
+      "seller": "Moderna Mobília",
+      "url": "https://www.modernamobilia.com.br/produtos/mesa-de-jantar-carolina-180cm-tampo-mdf-canto-copo-moderna-mobilia?referenceId=1754419733861102",
+      "row": 8
+    },
+    {
+      "id": "M3",
+      "ref": 2,
+      "store": "Moderna",
+      "model": "Light convencional",
+      "cls": "Referência",
+      "mat": "MDF",
+      "dims": [
+        208,
+        182,
+        47
+      ],
+      "net": 60.1,
+      "packed": 63,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 0,
+      "price": 639.9,
+      "card": "8x 84,20",
+      "variant": "Branco; SKU 544",
+      "note": "Aberto, MDF, 3 prateleiras, 6 cabideiros e nenhuma gaveta. Medidas A × L × P: 208 × 182 × 47 cm e peso 60,1 kg confirmados pelo usuário. Preço e fretes conferidos em 10/11/2026, com atualização dos prazos.",
+      "seller": "Moderna Mobília",
+      "url": "https://www.modernamobilia.com.br/produtos/closet-light-convencional-moderna-01110223?referenceId=sku_89ad2ac676510a50783230201112623",
+      "row": 9
+    },
+    {
+      "id": "M4",
+      "ref": 3,
+      "store": "Moderna",
+      "model": "Alvorada + 6 Melissa",
+      "cls": "Referência",
+      "mat": "100% MDF + vidro",
+      "dims": [
+        80,
+        180,
+        90
+      ],
+      "net": 116.8,
+      "packed": 123.7,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 6,
+      "price": 1799.9,
+      "card": "12x 157,89",
+      "variant": "SKU 878; seleção de cor não identificada",
+      "note": "Mesa canto reto e 6 cadeiras Melissa. Assento D23, encosto D16/D18. Dimensões da mesa; peso do conjunto.",
+      "seller": "Moderna Mobília",
+      "url": "https://www.modernamobilia.com.br/produtos/mesa-alvorada-180-tp-mdf-vidro-canto-reto-6-cadeiras-rufato?referenceId=1727124093642456",
+      "row": 10
+    },
+    {
+      "id": "M5",
+      "ref": 4,
+      "store": "Moderna",
+      "model": "Coliseu",
+      "cls": "Referência",
+      "mat": "100% MDF 15 mm",
+      "dims": [
+        235,
+        273,
+        56
+      ],
+      "net": 246.09,
+      "packed": 251.62,
+      "doors": 6,
+      "drawers": 6,
+      "chairs": 0,
+      "price": 2099.9,
+      "card": "12x 184,20",
+      "variant": "SKU 1453; seleção de cor não identificada",
+      "note": "Link de busca q=1453 resolvido pelo SKU exato 1453, código 29208. Portas por toque e gavetas telescópicas reforçadas. Preço, frete e prazo conferidos em 10/11/2026.",
+      "seller": "Moderna Mobília",
+      "url": "https://www.modernamobilia.com.br/produtos/guarda-roupa-casal-coliseu-100-mdf-6-portas-e-6-gavetas-moderna-mobilia1738852896?referenceId=1738693356870187",
+      "row": 11
+    },
+    {
+      "id": "T1",
+      "ref": 0,
+      "store": "Easy House",
+      "model": "Alonzo",
+      "cls": "Similar parcial",
+      "mat": "100% MDF",
+      "dims": [
+        230,
+        230,
+        47
+      ],
+      "net": 161,
+      "packed": null,
+      "doors": 6,
+      "drawers": 4,
+      "chairs": 0,
+      "price": 2334.21,
+      "card": "2.509,90; 12x 209,15",
+      "variant": "Amêndoa Clean; 59944.52.640",
+      "note": "100% MDF, 6 portas e 4 gavetas. Medidas A × L × P: 230 × 230 × 47 cm; peso: 161 kg. Em relação ao Toronto: +15 cm de altura, +10 cm de largura, +0,5 cm de profundidade e +23,83 kg; 6 portas contra 8. Medidas e peso informados pelo usuário em 10/11/2026, com base em outro anúncio da Easy House.",
+      "seller": "Easy House",
+      "url": "https://www.lojaeasyhouse.com.br/guarda-roupa-casal-6-portas-100--mdf-alonzo-amendoa-clean-1/p",
+      "row": 12
+    },
+    {
+      "id": "T2",
+      "ref": 0,
+      "store": "MadeiraMadeira",
+      "model": "Jatobá Plus Yescasa",
+      "cls": "Próximo",
+      "mat": "100% MDF",
+      "dims": [
+        220,
+        220,
+        46.5
+      ],
+      "net": null,
+      "packed": 121.5,
+      "doors": 8,
+      "drawers": 4,
+      "chairs": 0,
+      "price": 1724.98,
+      "card": "12x 169,12",
+      "variant": "Cinamomo/Off White; 394256624",
+      "note": "Mesma largura, profundidade e configuração 8/4; 5 cm mais alto. Pés de 5 cm e sob encomenda. Peso 121,5 kg descrito como embalado, apesar de constar também em peso na ficha.",
+      "seller": "MadeiraMadeira",
+      "url": "https://www.madeiramadeira.com.br/guarda-roupa-casal-100-mdf-8-portas-4-gavetas-jatoba-plus-yescasa-cinamomo-off-394256624.html?seller=1",
+      "row": 13
+    },
+    {
+      "id": "T3",
+      "ref": 0,
+      "store": "Bom Pastor",
+      "model": "Torino com espelho",
+      "cls": "Parcial",
+      "mat": "100% MDF",
+      "dims": [
+        220,
+        205,
+        55
+      ],
+      "net": 163,
+      "packed": null,
+      "doors": 3,
+      "drawers": 4,
+      "chairs": 0,
+      "price": 1425,
+      "card": "1.500,00; 12x 125,00",
+      "variant": "Naturale/OFF; 92613.1231",
+      "note": "3 portas de correr e espelho. 15 cm mais estreito e 8,5 cm mais profundo. Preço e fretes da consulta original em 09/11/2026.",
+      "seller": "Bom Pastor",
+      "url": "https://www.lojabompastor.com.br/guarda-roupa-casal-100--mdf-torino-c--espelho-bom-pastor/p",
+      "row": 14
+    },
+    {
+      "id": "T4",
+      "ref": 0,
+      "store": "Madesa",
+      "model": "Royale",
+      "cls": "Parcial",
+      "mat": "100% MDF",
+      "dims": [
+        218,
+        231,
+        55
+      ],
+      "net": null,
+      "packed": null,
+      "doors": 3,
+      "drawers": 4,
+      "chairs": 0,
+      "price": 1936,
+      "card": "2.199,99; 14x 157,14",
+      "variant": "Branco/Rustic; 10639B",
+      "note": "3 portas de correr, 4 gavetas, 8 prateleiras e 3 cabideiros. 11 cm mais largo e 8,5 cm mais profundo. Não equivale à configuração de 8 portas de abrir.",
+      "seller": "Madesa",
+      "url": "https://www.madesa.com/products/guarda-roupa-casal-100-mdf-madesa-royale-3-portas-de-correr-branco-rustic?order=OrderByScoreDESC",
+      "row": 15
+    },
+    {
+      "id": "C1",
+      "ref": 1,
+      "store": "MadeiraMadeira",
+      "model": "Dublin sem vidro",
+      "cls": "Similar com ressalva",
+      "mat": "Tampo MDF; base MDP na ficha",
+      "dims": [
+        80,
+        180,
+        90
+      ],
+      "net": 45.75,
+      "packed": null,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 0,
+      "price": 699.98,
+      "card": "875,00; 10x 87,50",
+      "variant": "Naturalle; 464706750",
+      "note": "Mesa avulsa sem vidro, canto copo e mesmas medidas da Carolina: 80 × 180 × 90 cm. Peso 45,75 kg. O título anuncia 100% MDF e a descrição menciona MDF, mas a ficha informa tampo MDF e base MDP; divergência de material preservada como ressalva. Eixos normalizados da ficha 80 × 90 × 180. Coleta de preço, frete e prazo em 10/11/2026; substitui o Dublin com vidro antes selecionado.",
+      "seller": "MadeiraMadeira",
+      "url": "https://www.madeiramadeira.com.br/mesa-para-sala-de-jantar-180-cm-100-mdf-canto-copo-dublin-marrom-464706750.html?index=search-web&seller=1",
+      "row": 16
+    },
+    {
+      "id": "C2",
+      "ref": 1,
+      "store": "Bom Pastor",
+      "model": "Nina com vidro",
+      "cls": "Parcial",
+      "mat": "100% MDF + vidro",
+      "dims": [
+        80,
+        180,
+        90
+      ],
+      "net": 57,
+      "packed": null,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 0,
+      "price": 949.05,
+      "card": "999,00; 12x 83,25",
+      "variant": "Base Naturale/Tampo OFF; 79844.1092.1254",
+      "note": "Mesa avulsa com mesmas medidas e MDF, porém vidro colado de 4 mm, bordas PVC e quinas arredondadas. Sem cadeiras.",
+      "seller": "Bom Pastor",
+      "url": "https://www.lojabompastor.com.br/mesa-nina-180x90-mdf-vidro-bom-pastor/p",
+      "row": 17
+    },
+    {
+      "id": "C3",
+      "ref": 1,
+      "store": "MadeiraMadeira",
+      "model": "Candian sem vidro",
+      "cls": "Parcial; base diferente",
+      "mat": "Tampo MDF; base madeira maciça",
+      "dims": [
+        78,
+        180,
+        90
+      ],
+      "net": 43.2,
+      "packed": null,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 0,
+      "price": 699.98,
+      "card": "10x 87,50",
+      "variant": "Cinamomo; 892609",
+      "note": "Alternativa sem vidro. Base maciça diferente do MDF da Carolina. Campo genérico diz Vidro/MDF, mas variante, título e descrição confirmam sem vidro.",
+      "seller": "MadeiraMadeira",
+      "url": "https://www.madeiramadeira.com.br/mesa-candian-180-x-0-90-sem-vidro-tampo-amadeirado-marrom-cinamomo-892609.html?seller=1",
+      "row": 18
+    },
+    {
+      "id": "L1",
+      "ref": 2,
+      "store": "MadeiraMadeira",
+      "model": "Moutier",
+      "cls": "Baixa similaridade",
+      "mat": "100% MDF",
+      "dims": [
+        235,
+        208,
+        60
+      ],
+      "net": 160,
+      "packed": null,
+      "doors": 0,
+      "drawers": 4,
+      "chairs": 0,
+      "price": 1599.99,
+      "card": "12x 166,67",
+      "variant": "Branco; 977104",
+      "note": "Aberto em MDF. +27 cm altura, +26 cm largura, +13 cm profundidade e 4 gavetas a mais. 3 cabideiros/9 prateleiras. Não usar como equivalência direta do Light.",
+      "seller": "MadeiraMadeira",
+      "url": "https://www.madeiramadeira.com.br/closet-casal-100-mdf-208cm-4-gavetas-moutier-branco-977104.html",
+      "row": 19
+    },
+    {
+      "id": "A1",
+      "ref": 3,
+      "store": "MadeiraMadeira",
+      "model": "Alvorada + 6 Melissa",
+      "cls": "Mesmo modelo; ressalva",
+      "mat": "100% MDF + vidro na descrição",
+      "dims": [
+        80,
+        180,
+        90
+      ],
+      "net": 116.8,
+      "packed": null,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 6,
+      "price": 2379.9,
+      "card": "12x 198,33",
+      "variant": "Turim/Off White/Imbuia; 521363954",
+      "note": "Mesmo fabricante Rufato, modelo, composição, medidas e peso. Descrição declara 100% MDF, mas campo genérico do tampo diz MDF/MDP/Vidro. Confirmar divergência com vendedor.",
+      "seller": "WEBCONTINENTAL MARKETPLACE",
+      "url": "https://www.madeiramadeira.com.br/mesa-alvorada-180-tp-mdf-vidro-canto-reto-6-cadeiras-rufato-turim-off-white-imbuia-serig-off-white-521363954.html?seller=17012",
+      "row": 20
+    },
+    {
+      "id": "A2",
+      "ref": 3,
+      "store": "Bom Pastor",
+      "model": "Mavie + 6 Ayla",
+      "cls": "Próximo",
+      "mat": "100% MDF + vidro",
+      "dims": [
+        80,
+        180,
+        90
+      ],
+      "net": 122,
+      "packed": null,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 6,
+      "price": 1596,
+      "card": "1.680,00; 12x 140,00",
+      "variant": "Naturale/Off Linho Off; 92813.1698.1254",
+      "note": "Mesa 180x90 e 6 cadeiras estofadas. Design da base e cadeiras diferente. Peso do conjunto 5,2 kg maior. Preço da página carregada, diferente do índice de busca.",
+      "seller": "Bom Pastor",
+      "url": "https://www.lojabompastor.com.br/sala-de-jantar-180x90-mavie-mdf-vidro-6-cadeiras-bom-pastor/p",
+      "row": 21
+    },
+    {
+      "id": "K1",
+      "ref": 4,
+      "store": "MadeiraMadeira",
+      "model": "Vision Rufato",
+      "cls": "Muito próximo",
+      "mat": "100% MDF 15 mm",
+      "dims": [
+        235,
+        273,
+        56
+      ],
+      "net": 249,
+      "packed": null,
+      "doors": 6,
+      "drawers": 6,
+      "chairs": 0,
+      "price": 1799.98,
+      "card": "12x 187,50",
+      "variant": "Naturalle/Off White; 983283",
+      "note": "Mesmas medidas e MDF 15 mm. 6 portas de bater por toque e 6 gavetas telescópicas reforçadas. +2,91 kg. Nomes comerciais diferentes; identidade de SKU não afirmada.",
+      "seller": "MadeiraMadeira",
+      "url": "https://www.madeiramadeira.com.br/guarda-roupa-casal-100-mdf-6-portas-e-6-gavetas-vision-marrom-marromle-off-white-983283.html?index=prod-poc-madeira&seller=1",
+      "row": 22
+    },
+    {
+      "id": "K2",
+      "ref": 4,
+      "store": "Bom Pastor",
+      "model": "Monza",
+      "cls": "Muito próximo",
+      "mat": "100% MDF",
+      "dims": [
+        236,
+        274,
+        55
+      ],
+      "net": 290,
+      "packed": null,
+      "doors": 6,
+      "drawers": 6,
+      "chairs": 0,
+      "price": 1881,
+      "card": "1.980,00; 12x 165,00",
+      "variant": "Branco; 73663.144",
+      "note": "6 portas e 6 gavetas. Diferenças: +1 cm altura, +1 cm largura, -1 cm profundidade e +43,91 kg. Variante branca.",
+      "seller": "Bom Pastor",
+      "url": "https://www.lojabompastor.com.br/guarda-roupa-casal-monza-6-portas-6-gavetas-bom-pastor/p",
+      "row": 23
+    },
+    {
+      "id": "A3",
+      "ref": 3,
+      "store": "Easy House",
+      "model": "Apogeu + 6 cadeiras Suede",
+      "cls": "Indicado pelo usuário; ressalvas",
+      "mat": "MDF/MDP; tampo MDF + vidro no título",
+      "dims": [
+        78,
+        170,
+        90
+      ],
+      "net": null,
+      "packed": null,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 6,
+      "price": 1469.31,
+      "card": "1.579,90; 12x 131,65",
+      "variant": "Amêndoa Clean/Off White; Suede Animale Bege; SKU 77020.95.643",
+      "note": "Incluído provisoriamente por indicação do usuário, com ressalvas. Mesa 78x170x90 cm: 2 cm mais baixa e 10 cm menor que Alvorada (80x180x90). Mesa e cadeiras MDF/MDP; Alvorada declara 100% MDF. Tampo MDF 25 mm; cantos arredondados versus retos. Apogeu: assento D20 e encosto D18; Alvorada: D23 e D16/D18. Cadeiras Apogeu 96x41x59 cm, Suede Animale Bege. Título indica vidro serigrafado; descrição trata vidro temperado 4 mm como opção. Peso não informado. Nenhum método de envio nos oito CEPs.",
+      "seller": "Easy House",
+      "url": "https://www.lojaeasyhouse.com.br/mesa-1-70-apogeu-2023-c-vdo-serig--c-06-cad-apogeu-tecido-suede-animale-bege-amendoa-cle-off-wh-amendoa-cle-1/p"
+    },
+    {
+      "id": "L2",
+      "ref": 2,
+      "store": "Madesa",
+      "model": "Vênus 180 cm / 4 gavetas",
+      "cls": "Similar com ressalva — indicação do usuário",
+      "mat": "MDP",
+      "dims": [
+        217,
+        180,
+        45
+      ],
+      "net": null,
+      "packed": null,
+      "doors": 0,
+      "drawers": 4,
+      "chairs": 0,
+      "price": 1073.6,
+      "card": "1.219,99; 8x 152,49",
+      "variant": "Branco; REF 110609CL4GL1",
+      "seller": "Madesa",
+      "url": "https://www.madesa.com/products/guarda-roupa-closet-4-gavetas-180-cm-branco-venus-madesa",
+      "note": "Indicado pelo usuário. Mais próximo dimensionalmente que o Vênus 121 cm: +9 cm de altura, -2 cm de largura e -2 cm de profundidade frente ao Light. MDP contra MDF; 4 gavetas contra nenhuma e 2 cabideiros contra 6. Peso não informado no anúncio consultado. Coleta em 10/11/2026; Pix sem cupom adicional. Frete normal grátis em SP, Campinas, RJ, Nova Iguaçu e Uberlândia; R$ 149,99 em Salvador. Site rejeitou os CEPs de BH e Feira."
+    },
+    {
+      "id": "C4",
+      "ref": 1,
+      "store": "Madesa",
+      "model": "5388 Diretor Presidente",
+      "cls": "Similar com ressalva",
+      "mat": "MDP",
+      "dims": [
+        78,
+        180,
+        90
+      ],
+      "net": null,
+      "packed": null,
+      "doors": 0,
+      "drawers": 0,
+      "chairs": 0,
+      "price": 510.4,
+      "card": "579,99; 3x 193,33",
+      "variant": "Rustic/Crema; MDFC010010J8",
+      "seller": "Madesa",
+      "url": "https://www.madesa.com/products/mesa-para-escritorio-5388-diretor-presidente-180cm-rustic-crema-madesa",
+      "note": "Indicação do usuário. Mesa sem vidro, conforme correção do usuário em 10/11/2026. Mesmos 180 × 90 cm da Carolina; 2 cm mais baixa. Anunciada para escritório, com base trapézio; MDP contra MDF da Carolina. Peso não informado. Preço e fretes coletados em 10/11/2026; uma unidade, Pix/à vista sem cupom adicional."
+    },
+    {
+      "id": "L3",
+      "ref": 2,
+      "store": "MadeiraMadeira",
+      "model": "Vênus 180 cm / 4 gavetas",
+      "cls": "Similar com ressalva",
+      "mat": "MDP",
+      "dims": [
+        217,
+        180,
+        45
+      ],
+      "net": null,
+      "packed": null,
+      "doors": 0,
+      "drawers": 4,
+      "chairs": 0,
+      "price": 1349.99,
+      "card": "12x 112,50",
+      "variant": "Branco; 110609CL4GL1; anúncio 638530937",
+      "seller": "Webcontinental Marketplace",
+      "url": "https://www.madeiramadeira.com.br/guarda-roupa-closet-4-gavetas-180-cm-venus-madesa-branco-638530937.html?index=search-web&seller=17012",
+      "note": "Destino do link confirmado pelo usuário: Vênus 180, e não Ana. Vendido pela Webcontinental Marketplace, não pela Moderna. Mesmo produto do anúncio direto Madesa. Frente ao Light: +9 cm de altura, -2 cm de largura, -2 cm de profundidade; MDP contra MDF e 4 gavetas extras. Peso não informado. Coleta em 10/11/2026; uma unidade, Pix/à vista sem cupom adicional."
+    },
+    {
+      "id": "K3",
+      "ref": 4,
+      "store": "Easy House",
+      "model": "Easy Like / Magalu",
+      "cls": "Similar com ressalva",
+      "mat": "100% MDF 15 mm",
+      "dims": [
+        null,
+        270,
+        56
+      ],
+      "net": null,
+      "packed": null,
+      "doors": 6,
+      "drawers": 6,
+      "chairs": 0,
+      "price": 1878.42,
+      "card": "2.209,90; 10x 220,99",
+      "variant": "Amêndoa Clean/Off White; dj05c25b68",
+      "seller": "Easy House; entregue pelo Magalu",
+      "url": "https://www.magazineluiza.com.br/guarda-roupa-casal-100-mdf-casal-6-pts-easy-like-amendoa-clean-off-white-grupo-lopas/p/dj05c25b68/mo/guro/?seller_id=easyhouse",
+      "note": "Oferta da Easy House no marketplace Magalu, não no site próprio; entrega pelo Magalu. Próximo ao Coliseu: MDF, 6 portas e 6 gavetas telescópicas; largura 270 contra 273 cm e profundidade 56 cm em ambos. Laterais de 18 mm, cantos curvos e puxadores cava/PU; Coliseu abre por toque. Altura e peso não confirmados neste anúncio; não foram copiados de outra variante. Comparação com ressalva. Coleta em 10/11/2026; uma unidade, Pix/à vista sem cupom adicional."
+    },
+    {
+      "id": "K4",
+      "ref": 4,
+      "store": "Madesa",
+      "model": "Neo 280 cm / 7 portas",
+      "cls": "Similar parcial",
+      "mat": "MDP",
+      "dims": [
+        218,
+        280,
+        56
+      ],
+      "net": null,
+      "packed": null,
+      "doors": 7,
+      "drawers": 4,
+      "chairs": 0,
+      "price": 3564,
+      "card": "4.049,99; 18x 224,99",
+      "variant": "Rustic/Crema; MDNE2800017G",
+      "seller": "Madesa",
+      "url": "https://www.madesa.com/products/guarda-roupa-modulado-280-cm-7-portas-4-gavetas-rustic-crema-neo-madesa-01",
+      "note": "Similar parcial ao Coliseu: -17 cm de altura, +7 cm de largura e mesma profundidade. MDP contra MDF, 7 portas contra 6 e 4 gavetas contra 6; configuração modular de 4 módulos. Peso não informado; 188 kg é carga suportada, não peso do móvel. Mantido na análise individual, fora da disputa principal por diferenças de material e configuração. Coleta em 10/11/2026; uma unidade, Pix/à vista sem cupom adicional."
+    }
+  ],
+  "ship": {
+    "M1": {
+      "freights": [
+        71.99,
+        106.07,
+        68.71,
+        68.71,
+        172.74,
+        251.55,
+        255.95,
+        236.91
+      ],
+      "dates": [
+        "2026-11-16",
+        "2026-11-19",
+        "2026-11-13",
+        "2026-11-13",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-11"
+      ],
+      "du": [],
+      "start": []
+    },
+    "M2": {
+      "freights": [
+        76.15,
+        100.92,
+        37.11,
+        37.11,
+        95.46,
+        131.83,
+        174.36,
+        132.55
+      ],
+      "dates": [
+        "2026-11-30",
+        "2026-11-23",
+        "2026-11-16",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-25",
+        "2026-12-03",
+        "2026-12-14"
+      ],
+      "du": [],
+      "start": []
+    },
+    "M3": {
+      "freights": [
+        42.23,
+        142.12,
+        8.39,
+        8.39,
+        130.31,
+        203.05,
+        128.72,
+        86.85
+      ],
+      "dates": [
+        "2026-11-16",
+        "2026-11-23",
+        "2026-11-16",
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-25",
+        "2026-12-03",
+        "2026-12-14"
+      ],
+      "du": [],
+      "start": []
+    },
+    "M4": {
+      "freights": [
+        3.51,
+        45.18,
+        0,
+        0,
+        27.31,
+        92.99,
+        135.64,
+        118.52
+      ],
+      "dates": [
+        "2026-11-20",
+        "2026-11-20",
+        "2026-11-13",
+        "2026-11-13",
+        "2026-11-19",
+        "2026-11-23",
+        "2026-12-02",
+        "2026-12-11"
+      ],
+      "du": [],
+      "start": []
+    },
+    "M5": {
+      "freights": [
+        46.05,
+        96.27,
+        0,
+        0,
+        103.06,
+        175.81,
+        407.11,
+        345.63
+      ],
+      "dates": [
+        "2026-11-16",
+        "2026-11-20",
+        "2026-11-25",
+        "2026-11-25",
+        "2026-11-20",
+        "2026-11-25",
+        "2026-12-03",
+        "2026-12-14"
+      ],
+      "du": [],
+      "start": []
+    },
+    "T1": {
+      "freights": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dates": [],
+      "du": [],
+      "start": []
+    },
+    "T2": {
+      "freights": [
+        121.59,
+        240.87,
+        374.19,
+        374.19,
+        null,
+        589.17,
+        847.58,
+        null
+      ],
+      "dates": [
+        "2027-01-15",
+        "2027-01-06",
+        "2027-01-11",
+        "2027-01-11",
+        null,
+        "2027-03-04",
+        "2027-01-21",
+        null
+      ],
+      "du": [],
+      "start": []
+    },
+    "T3": {
+      "freights": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        444.4,
+        487.4
+      ],
+      "dates": [],
+      "du": [
+        30,
+        35,
+        27,
+        30,
+        30,
+        35,
+        32,
+        35
+      ],
+      "start": []
+    },
+    "T4": {
+      "freights": [
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        159.9,
+        null
+      ],
+      "dates": [
+        "2026-11-26",
+        "2026-12-01",
+        "2026-11-30",
+        "2026-12-01",
+        null,
+        "2026-12-08",
+        "2026-11-25",
+        null
+      ],
+      "du": [],
+      "start": [
+        "2026-11-20",
+        "2026-11-25",
+        "2026-11-24",
+        "2026-11-25",
+        null,
+        "2026-12-02",
+        "2026-11-19",
+        null
+      ]
+    },
+    "C1": {
+      "freights": [
+        85.91,
+        114.95,
+        181.8,
+        181.8,
+        null,
+        270.82,
+        357.64,
+        null
+      ],
+      "start": [],
+      "dates": [
+        "2026-12-15",
+        "2026-12-03",
+        "2026-12-02",
+        "2026-12-02",
+        null,
+        "2027-01-19",
+        "2026-12-11",
+        null
+      ],
+      "du": []
+    },
+    "C2": {
+      "freights": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        279.95,
+        302.95
+      ],
+      "dates": [],
+      "du": [
+        30,
+        35,
+        27,
+        30,
+        30,
+        35,
+        32,
+        35
+      ],
+      "start": []
+    },
+    "C3": {
+      "freights": [
+        98.17,
+        150.33,
+        213.5,
+        213.5,
+        null,
+        368.72,
+        476.95,
+        null
+      ],
+      "dates": [
+        "2026-12-15",
+        "2026-12-03",
+        "2026-12-02",
+        "2026-12-02",
+        null,
+        "2027-01-22",
+        "2026-12-11",
+        null
+      ],
+      "du": [],
+      "start": []
+    },
+    "L1": {
+      "freights": [
+        58.9,
+        95.29,
+        204.58,
+        204.58,
+        null,
+        372.25,
+        599.02,
+        null
+      ],
+      "dates": [
+        "2026-12-17",
+        "2026-12-07",
+        "2026-12-08",
+        "2026-12-08",
+        null,
+        "2027-01-29",
+        "2027-01-06",
+        null
+      ],
+      "du": [],
+      "start": []
+    },
+    "A1": {
+      "freights": [
+        158.91,
+        199.45,
+        150.39,
+        150.39,
+        null,
+        243.39,
+        296.61,
+        null
+      ],
+      "dates": [
+        "2026-11-23",
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-24",
+        null,
+        "2026-11-24",
+        "2026-12-02",
+        null
+      ],
+      "du": [],
+      "start": []
+    },
+    "A2": {
+      "freights": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        856.43,
+        949.43
+      ],
+      "dates": [],
+      "du": [
+        30,
+        35,
+        27,
+        30,
+        30,
+        35,
+        32,
+        35
+      ],
+      "start": []
+    },
+    "K1": {
+      "freights": [
+        132.57,
+        297.06,
+        375.45,
+        375.45,
+        null,
+        599.13,
+        839.14,
+        null
+      ],
+      "dates": [
+        "2026-12-15",
+        "2026-12-03",
+        "2026-12-02",
+        "2026-12-02",
+        null,
+        "2027-01-22",
+        "2026-12-11",
+        null
+      ],
+      "du": [],
+      "start": []
+    },
+    "K2": {
+      "freights": [
+        99,
+        99,
+        99,
+        99,
+        99,
+        99,
+        608.83,
+        671.83
+      ],
+      "dates": [],
+      "du": [
+        30,
+        35,
+        27,
+        30,
+        30,
+        35,
+        32,
+        35
+      ],
+      "start": []
+    },
+    "A3": {
+      "freights": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dates": [],
+      "du": [],
+      "start": [],
+      "unavailableReason": "Sem método de envio"
+    },
+    "L2": {
+      "freights": [
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        149.99,
+        null
+      ],
+      "start": [
+        "2026-11-23",
+        "2026-11-26",
+        "2026-11-25",
+        "2026-11-26",
+        null,
+        "2026-12-03",
+        "2026-12-08",
+        null
+      ],
+      "dates": [
+        "2026-11-27",
+        "2026-12-02",
+        "2026-12-01",
+        "2026-12-02",
+        null,
+        "2026-12-09",
+        "2026-12-14",
+        null
+      ],
+      "du": []
+    },
+    "C4": {
+      "freights": [
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        99.9,
+        null
+      ],
+      "start": [
+        "2026-11-16",
+        "2026-11-24",
+        "2026-11-23",
+        "2026-11-23",
+        null,
+        "2026-12-03",
+        "2026-11-20",
+        null
+      ],
+      "dates": [
+        "2026-11-20",
+        "2026-11-30",
+        "2026-11-27",
+        "2026-11-27",
+        null,
+        "2026-12-09",
+        "2026-11-26",
+        null
+      ],
+      "du": []
+    },
+    "L3": {
+      "freights": [
+        90.39,
+        90.39,
+        90.39,
+        90.39,
+        null,
+        90.39,
+        240.38,
+        null
+      ],
+      "start": [],
+      "dates": [
+        "2026-11-26",
+        "2026-12-01",
+        "2026-11-30",
+        "2026-12-01",
+        null,
+        "2026-12-08",
+        "2026-12-10",
+        null
+      ],
+      "du": []
+    },
+    "K3": {
+      "freights": [
+        195.61,
+        292.04,
+        185.37,
+        200.5,
+        null,
+        296.8,
+        521.58,
+        null
+      ],
+      "start": [
+        "2026-12-02",
+        "2026-12-10",
+        "2026-11-27",
+        "2026-12-07",
+        null,
+        "2026-12-11",
+        "2026-12-15",
+        null
+      ],
+      "dates": [
+        "2026-12-07",
+        "2026-12-15",
+        "2026-12-02",
+        "2026-12-10",
+        null,
+        "2026-12-16",
+        "2026-12-18",
+        null
+      ],
+      "du": []
+    },
+    "K4": {
+      "freights": [
+        129.99,
+        169.99,
+        199.99,
+        199.99,
+        null,
+        199.99,
+        299.99,
+        null
+      ],
+      "start": [
+        "2026-11-23",
+        "2026-11-26",
+        "2026-11-25",
+        "2026-11-26",
+        null,
+        "2026-12-03",
+        "2026-12-08",
+        null
+      ],
+      "dates": [
+        "2026-11-27",
+        "2026-12-02",
+        "2026-12-01",
+        "2026-12-02",
+        null,
+        "2026-12-09",
+        "2026-12-14",
+        null
+      ],
+      "du": []
+    }
+  },
+  "coverage": [
+    [
+      0,
+      "Easy House",
+      "T1",
+      "100% MDF, 230 × 230 × 47 cm e 161 kg, conforme dados enviados pelo usuário em 10/11/2026. Similar parcial: 6 portas contra 8 do Toronto. Sem método de envio nos oito CEPs."
+    ],
+    [
+      0,
+      "MadeiraMadeira",
+      "T2",
+      "Próximo: MDF, 8 portas e 4 gavetas; mesma largura e profundidade. Sob encomenda."
+    ],
+    [
+      0,
+      "Bom Pastor",
+      "T3",
+      "Parcial: MDF e 4 gavetas, porém 3 portas de correr e diferenças dimensionais."
+    ],
+    [
+      0,
+      "Madesa",
+      "T4",
+      "Parcial: MDF e 4 gavetas, porém portas de correr e maior profundidade."
+    ],
+    [
+      1,
+      "Easy House",
+      null,
+      "Nenhuma mesa avulsa MDF 180x90 confirmada. Resultados encontrados concentram conjuntos. Apogeu é MDF/MDP."
+    ],
+    [
+      1,
+      "MadeiraMadeira",
+      "C1",
+      "Mesa avulsa sem vidro, canto copo e mesmas medidas da Carolina: 80 × 180 × 90 cm. Peso 45,75 kg. O título anuncia 100% MDF e a descrição menciona MDF, mas a ficha informa tampo MDF e base MDP; divergência de material preservada como ressalva. Eixos normalizados da ficha 80 × 90 × 180. Coleta de preço, frete e prazo em 10/11/2026; substitui o Dublin com vidro antes selecionado."
+    ],
+    [
+      1,
+      "Bom Pastor",
+      "C2",
+      "Nina preserva MDF e medidas, mas acrescenta vidro."
+    ],
+    [
+      1,
+      "Madesa",
+      "C4",
+      "Indicação do usuário. Mesa sem vidro, conforme correção do usuário em 10/11/2026. Mesmos 180 × 90 cm da Carolina; 2 cm mais baixa. Anunciada para escritório, com base trapézio; MDP contra MDF da Carolina. Peso não informado. Preço e fretes coletados em 10/11/2026; uma unidade, Pix/à vista sem cupom adicional."
+    ],
+    [
+      2,
+      "Easy House",
+      null,
+      "Busca por closet no site sem resultados. Nenhum correspondente confirmado."
+    ],
+    [
+      2,
+      "MadeiraMadeira",
+      "L3",
+      "Destino do link confirmado pelo usuário: Vênus 180, e não Ana. Vendido pela Webcontinental Marketplace, não pela Moderna. Mesmo produto do anúncio direto Madesa. Frente ao Light: +9 cm de altura, -2 cm de largura, -2 cm de profundidade; MDP contra MDF e 4 gavetas extras. Peso não informado. Coleta em 10/11/2026; uma unidade, Pix/à vista sem cupom adicional."
+    ],
+    [
+      2,
+      "Bom Pastor",
+      null,
+      "Busca por closet abriu página indisponível. Nenhum correspondente confirmado."
+    ],
+    [
+      2,
+      "Madesa",
+      "L2",
+      "Vênus 180 cm escolhido por maior proximidade dimensional. MDP e 4 gavetas exigem ressalvas. Seis CEPs cotados em 10/11/2026; BH e Feira rejeitados pelo site."
+    ],
+    [
+      3,
+      "Easy House",
+      "A3",
+      "Apogeu Suede incluído por indicação do usuário com ressalvas de MDF/MDP, mesa de 170 cm, cantos e espuma. Sem método de envio nos oito CEPs."
+    ],
+    [
+      3,
+      "MadeiraMadeira",
+      "A1",
+      "Mesmo Alvorada/Melissa Rufato, vendedor Webcontinental. Campo genérico de material divergente."
+    ],
+    [
+      3,
+      "Bom Pastor",
+      "A2",
+      "Mavie/Ayla MDF + vidro, mesa 180x90 e 6 cadeiras."
+    ],
+    [
+      3,
+      "Madesa",
+      null,
+      "Madison com tampo MDP e sem vidro excluído."
+    ],
+    [
+      4,
+      "Easy House",
+      "K3",
+      "Oferta da Easy House no marketplace Magalu, não no site próprio; entrega pelo Magalu. Próximo ao Coliseu: MDF, 6 portas e 6 gavetas telescópicas; largura 270 contra 273 cm e profundidade 56 cm em ambos. Laterais de 18 mm, cantos curvos e puxadores cava/PU; Coliseu abre por toque. Altura e peso não confirmados neste anúncio; não foram copiados de outra variante. Comparação com ressalva. Coleta em 10/11/2026; uma unidade, Pix/à vista sem cupom adicional."
+    ],
+    [
+      4,
+      "MadeiraMadeira",
+      "K1",
+      "Vision com mesmas medidas, MDF 15 mm, 6 portas por toque e 6 gavetas."
+    ],
+    [
+      4,
+      "Bom Pastor",
+      "K2",
+      "Monza MDF 6 portas/6 gavetas. Apenas 1 cm de diferença em cada dimensão."
+    ],
+    [
+      4,
+      "Madesa",
+      "K4",
+      "Similar parcial ao Coliseu: -17 cm de altura, +7 cm de largura e mesma profundidade. MDP contra MDF, 7 portas contra 6 e 4 gavetas contra 6; configuração modular de 4 módulos. Peso não informado; 188 kg é carga suportada, não peso do móvel. Mantido na análise individual, fora da disputa principal por diferenças de material e configuração. Coleta em 10/11/2026; uma unidade, Pix/à vista sem cupom adicional."
+    ]
+  ],
+  "excluded": [
+    [
+      "E1",
+      3,
+      "Easy House",
+      "Apogeu + 6 cadeiras Linho",
+      "Variante não selecionada",
+      "Easy House",
+      "Variante Linho antes pesquisada. Para Alvorada passou a ser usado o anúncio Suede Animale Bege indicado pelo usuário, ID A3, com ressalvas. Este conjunto não corresponde à Carolina avulsa.",
+      "https://www.lojaeasyhouse.com.br/mesa-1-70-apogeu-2023-c-vdo-serig--c-06-cad-apogeu-tecido-linho-rinzai-bege-amendoa-cle-off-wh-amendoa-cle-1/p"
+    ],
+    [
+      "E3",
+      2,
+      "Madesa",
+      "Closet Venus",
+      "Excluído; MDP",
+      "Madesa",
+      "217x180x45, 4 gavetas. Pix 1.100,00 no índice oficial. MDP não tratado como equivalente MDF.",
+      "https://www.madesa.com/products/guarda-roupa-closet-4-gavetas-180-cm-branco-venus-madesa"
+    ],
+    [
+      "E4",
+      3,
+      "Madesa",
+      "Madison + 6 cadeiras",
+      "Excluído; material",
+      "Madesa",
+      "Mesa 78x180x90 e 6 cadeiras. Material MDF/MDP com tampo MDP, sem vidro. Excluído da comparação de preço com Alvorada.",
+      "https://www.madesa.com/products/conjunto-sala-jantar-mesa-tampo-madeira-6-cadeiras-rustic-preto-silver-madison-madesa"
+    ],
+    [
+      "E5",
+      2,
+      "MadeiraMadeira",
+      "Cannes",
+      "Indisponível",
+      "MadeiraMadeira",
+      "MDF, 218x209x57, 149 kg, aberto com 4 gavetas. Página exibiu produto indisponível.",
+      "https://www.madeiramadeira.com.br/closet-casal-sem-portas-4-gavetas-cannes-881664.html"
+    ],
+    [
+      "E6",
+      2,
+      "MadeiraMadeira",
+      "Light convencional",
+      "Excluído; vendedor",
+      "Moderna Mobília",
+      "Mesmo produto vendido pela própria Moderna. Excluído conforme critério solicitado.",
+      "https://www.madeiramadeira.com.br/roupeiro-casal-closet-light-com-3-prateleiras-moderna-874153732.html?seller=10475"
+    ],
+    [
+      "E7",
+      2,
+      "MadeiraMadeira",
+      "Light Premium",
+      "Excluído; composição",
+      "WEBCONTINENTAL MARKETPLACE",
+      "Kit de dois módulos, 120,2 kg. Não corresponde à unidade Light convencional de 60,1 kg. Pix 1.219,90 no índice oficial.",
+      "https://www.madeiramadeira.com.br/guarda-roupa-closet-light-premium-moderna-imbuia-908518650.html?seller=17012"
+    ],
+    [
+      "E8",
+      4,
+      "Bom Pastor",
+      "Lisboa",
+      "Descartado; dimensões",
+      "Bom Pastor",
+      "100% MDF, 234x242x56, 227 kg, 6 portas e 6 gavetas. Pix 1.836,00. 31 cm mais estreito que Coliseu; substituído por Monza.",
+      "https://www.lojabompastor.com.br/guarda-roupa-casal-lisboa-6-portas-6-gavetas-bom-pastor/p"
+    ],
+    [
+      "E9",
+      3,
+      "Bom Pastor",
+      "Creta + 6 cadeiras",
+      "Excluído; substrato incerto",
+      "Bom Pastor",
+      "180x90 e 6 cadeiras; anúncio indica 100% BP, sem MDF comprovado nesta ficha. Pix 1.400,88. Selecionado Mavie/Ayla.",
+      "https://www.lojabompastor.com.br/sala-de-jantar-180x90-creta-6-cadeiras-bom-pastor/p"
+    ],
+    [
+      "E10",
+      0,
+      "Easy House",
+      "Easy Slim",
+      "Excluído; MDP",
+      "Easy House",
+      "MDP, 205x236x47, 8 portas e 4 gavetas. Retirado da comparação Toronto. Nenhum novo anúncio Moderna foi incluído para este modelo.",
+      "https://www.lojaeasyhouse.com.br/guarda-roupa-casal-easy-slim-8-portas-espelho-pes-amendoa-clean-off-white/p"
+    ],
+    [
+      "E11",
+      0,
+      "MadeiraMadeira",
+      "Toronto",
+      "Excluído; vendedor",
+      "Moderna Mobília",
+      "Retirado por ser vendido e entregue pela Moderna. Jatobá Plus foi selecionado como concorrente.",
+      "https://www.madeiramadeira.com.br/guarda-roupa-casal-toronto-mdf-8-portas-e-4-gavetas-moderna-mobilia-252110295.html"
+    ],
+    [
+      "L121",
+      2,
+      "Madesa",
+      "Vênus 121 cm / 2 gavetas",
+      "Substituído pelo Vênus 180 cm, mais próximo em largura",
+      "Madesa",
+      "217 × 121 × 45 cm; MDP e 2 gavetas. Largura 61 cm menor que o Light, contra apenas 2 cm no Vênus 180.",
+      "https://www.madesa.com/products/guarda-roupa-closet-2-gavetas-121-cm-branco-venus-madesa"
+    ]
+  ]
+}
