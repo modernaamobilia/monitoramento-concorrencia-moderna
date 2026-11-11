@@ -27,6 +27,7 @@ jobs:
       - run: node --test tests/*.test.mjs
       - run: node collector.mjs
       - run: node build_html.mjs
+      - run: node --test tests/*.test.mjs
       - run: python update_excel.py
       - run: libreoffice -env:UserInstallation=file:///tmp/lo-moderna --headless --convert-to xlsx --outdir .excel-tmp Comparativo_por_Concorrente_09-11-2026.xlsx
       - run: python verify_excel.py .excel-tmp/Comparativo_por_Concorrente_09-11-2026.xlsx
@@ -50,6 +51,7 @@ jobs:
         if: always()
         with:
           name: resultado-coleta
+          include-hidden-files: true
           path: |
             ultima_coleta.json
             coletas/

@@ -6,4 +6,5 @@ test('oito CEPs e zero é frete válido',()=>{assert.equal(new Set(CEPS).size,8)
 test('cotação incompleta não vira frete grátis',()=>{for(const q of [{price:0,status:'ok'},{price:100,freight:null,businessDays:3,status:'ok'},{price:100,freight:20,status:'ok'}])assert.throws(()=>validate(q));});
 test('Moderna usa preço Por, ignora preço riscado e preserva data',()=>{const q=parseModernaShipping('<div class="shipping_option_box"><span>chegará até 23 de novembro de 2026</span><div>De R$ 158,39</div><div class="shipping-option__price">Por R$ 107,32</div></div>',1349.9);assert.equal(q.freight,107.32);assert.equal(q.deliveryTo,'2026-11-23');});
 test('bloqueio e HTML sem cotação não são indisponibilidade',()=>assert.throws(()=>parseModernaShipping('<html>403</html>',100)));
+test('preço ausente não vira frete zero mesmo com data',()=>assert.throws(()=>parseModernaShipping('<div class="shipping_option_box"><span>chegará até 23 de novembro de 2026</span></div>',100)));
 test('configuração cobre as 184 combinações',async()=>{let d=JSON.parse(await fs.readFile('dados_revisados.json'));assert.equal(d.products.length*CEPS.length,184);});
