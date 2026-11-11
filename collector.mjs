@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
+import {parseMadeiraQuote} from './marketplace-parsers.mjs';
 export const CEPS=['01001-001','13010-001','20010-010','26010-010','30110-010','38400-010','40010-010','44001-010'];
 const round=n=>Math.round(n*100)/100;
 const money=s=>/\d/.test(s)?Number(s.replace(/[^\d,]/g,'').replace(',','.')):NaN;
@@ -14,7 +15,7 @@ function isoPt(s){const months=['janeiro','fevereiro','março','abril','maio','j
 export function parseModernaShipping(h,price){const opts=h.split('class="shipping_option_box"').slice(1).map(s=>({freight:money(s.match(/shipping-option__price[^>]*>([\s\S]*?)<\/div>/)?.[1]||''),deliveryTo:isoPt(plain(s))})).filter(x=>Number.isFinite(x.freight)&&x.deliveryTo);if(!opts.length)throw Error('Sem frete/prazo interpretável');return {...opts.sort((a,b)=>a.freight-b.freight)[0],price,status:'ok'};}
 export async function prepare(p,pins){
  const host=new URL(p.url).origin;
- if(host.includes('magazineluiza')){await request(p.url);throw Error('Magalu requer integração validada; cotação não atualizada');}
+ if(host.includes('magazineluiza')){const {prepareMagalu}=await import('./magalu-browser.mjs');return prepareMagalu(p);}
  const h=await request(p.url),schema=structured(h);
  if(p.store==='Moderna'){
   const sku=hidden(h,'referenceId'),id=hidden(h,'productId');if(sku!==new URL(p.url).searchParams.get('referenceId')||!id)throw Error('SKU divergente');
@@ -29,7 +30,7 @@ export async function prepare(p,pins){
  if(p.store==='MadeiraMadeira'){
   const n=JSON.parse(h.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/)?.[1]||'null')?.props.pageProps;if(!n?.product)throw Error('Produto Madeira não identificado');
   const wanted=new URL(p.url).searchParams.get('seller')||String(n.sellerId||1);const id=n.product.id;
-  return async cep=>{const d=await json(`${host}/api/freight/${id}?zipCode=${cep.replace('-','')}&seller=${wanted}&quantity=1`);if(!Array.isArray(d.buyBox))throw Error('Resposta Madeira inesperada');const b=d.buyBox.find(x=>String(x.seller?.id)===wanted||(wanted==='1'&&x.seller?.id===0));if(!b||/moderna/i.test(b.seller?.name||''))throw Error('Vendedor aprovado não encontrado');const price=b.price?.inCash;if(!b.shipping?.length)return {price,status:'unavailable'};const opts=b.shipping.filter(x=>!x.error&&Number.isFinite(x.shipping?.price)).sort((a,b)=>a.shipping.price-b.shipping.price);if(!opts.length)throw Error('Cotação Madeira com erro');const r=opts[0];return {price,freight:r.shipping.price,deliveryFrom:r.estimatedDelivery?.min,deliveryTo:r.estimatedDelivery?.max,businessDays:r.shipping.forecastMax,status:'ok',seller:b.seller.name};};
+  return async cep=>parseMadeiraQuote(await json(`${host}/api/freight/${id}?zipCode=${cep.replace('-','')}&seller=${wanted}&quantity=1`),wanted);
  }
  if(['Easy House','Bom Pastor'].includes(p.store)){
   const slug=new URL(p.url).pathname.split('/')[1];const catalog=await json(`${host}/api/catalog_system/pub/products/search/${slug}/p`);const product=catalog.find(x=>x.linkText===slug)||catalog[0];if(!product)throw Error('Catálogo sem produto');
@@ -43,10 +44,11 @@ const data=JSON.parse(await fs.readFile('dados_revisados.json')),history=JSON.pa
 const at=new Date().toISOString(),day=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'}).format(new Date());const attempts=[];
 for(const p of data.products){let fn,error;try{fn=await prepare(p,pins);}catch(e){error=e.message;}
  for(let i=0;i<8;i++){let row={offerId:p.id,url:p.url,cep:CEPS[i],collectedAt:day,checkedAt:at};try{if(error)throw Error(error);const q=validate(await fn(CEPS[i]));row={...row,...q};}catch(e){row={...row,status:'error',error:e.message};}attempts.push(row);console.log(p.id,CEPS[i],row.status,row.error||row.freight||'');await new Promise(r=>setTimeout(r,200));}
+ await fn?.close?.();
 }
 // Only complete per-offer price cohorts can replace the global display price.
-for(const p of data.products){const rows=attempts.filter(x=>x.offerId===p.id);const prices=[...new Set(rows.filter(x=>x.status!=='error').map(x=>x.price))];const s=data.ship[p.id];s.collectedAt||=Array(8).fill(null);s.status||=Array(8).fill('legacy');s.lastAttempt=rows.map(r=>({at,status:r.status,error:r.error||null}));if(prices.length!==1){if(prices.length>1)for(const r of rows){r.status='error';r.error='Preço varia por CEP: requer comparação com preço regional';s.lastAttempt[CEPS.indexOf(r.cep)]={at,status:'error',error:r.error};}continue;}
- for(let i=0;i<8;i++){let r=rows[i];s.lastAttempt[i]={at,status:r.status,error:r.error||null};if(r.status==='error')continue;s.freights[i]=r.status==='ok'?r.freight:null;s.dates[i]=r.deliveryTo||null;s.start[i]=r.deliveryFrom||null;s.du[i]=r.businessDays||null;s.collectedAt[i]=day;s.status[i]=r.status;}
+for(const p of data.products){const rows=attempts.filter(x=>x.offerId===p.id);const prices=[...new Set(rows.filter(x=>x.status!=='error').map(x=>x.price))];const s=data.ship[p.id];s.collectedAt||=Array(8).fill(null);s.status||=Array(8).fill('legacy');s.lastAttempt=rows.map(r=>({at,status:r.status,error:r.error||null,reason:r.reason||null}));if(prices.length!==1){if(prices.length>1)for(const r of rows){r.status='error';r.error='Preço varia por CEP: requer comparação com preço regional';s.lastAttempt[CEPS.indexOf(r.cep)]={at,status:'error',error:r.error};}continue;}
+ for(let i=0;i<8;i++){let r=rows[i];s.lastAttempt[i]={at,status:r.status,error:r.error||null,reason:r.reason||null};if(r.status==='error')continue;s.freights[i]=r.status==='ok'?r.freight:null;s.dates[i]=r.deliveryTo||null;s.start[i]=r.deliveryFrom||null;s.du[i]=r.businessDays||null;s.collectedAt[i]=day;s.status[i]=r.status;}
  p.price=prices[0];p.priceCollectedAt=day;
 }
 // Failed attempts never become a successful historical quote; reruns are revisions in the run log.

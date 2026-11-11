@@ -8,7 +8,7 @@ GitHub Actions executa diariamente às 10h17 UTC, correspondentes a 7h17 em Bras
 
 São 23 anúncios fixos, com uma unidade por cotação, oito CEPs e preço à vista sem cupom. A seleção de concorrentes e as ressalvas técnicas continuam manuais; não há substituição automática de produtos. IDs de variantes ficam fixados em `variantes_aprovadas.json`. Troca de variante ou vendedor provoca falha e requer revisão.
 
-Moderna usa a calculadora pública do Portal do Seller. Easy House e Bom Pastor usam simulação pública VTEX. Madesa usa a calculadora pública Checkstore. MadeiraMadeira usa o cálculo público do anúncio, mantendo o vendedor selecionado e excluindo a própria Moderna. Magalu está bloqueado (403), sem contorno de proteção. Madesa retornou 429 na rodada completa, permanecendo pendente de validação estável.
+Moderna usa a calculadora pública do Portal do Seller. Easy House e Bom Pastor usam simulação pública VTEX. Madesa usa a calculadora pública Checkstore. MadeiraMadeira usa o cálculo público do anúncio, mantendo o vendedor selecionado e excluindo a própria Moderna. Magalu usa navegador Chromium comum e o formulário público do anúncio, mantendo a Easy House como vendedora. Não utiliza mecanismos de disfarce ou contorno de bloqueios. Se a loja bloquear o navegador do runner, a rodada registra falha. CEP rejeitado e ausência expressa de entrega são registrados com a mensagem da loja; não são frete grátis nem erro técnico.
 
 ## Histórico e falhas
 

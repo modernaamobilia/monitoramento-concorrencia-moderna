@@ -23,7 +23,8 @@ for row in range(8,8+len(p)*8):
     status=s.get('lastAttempt',[{}]*8)[i].get('status','error')
     for col,val in [(9,s['freights'][i] if status=='ok' else None),(11,s['start'][i] if len(s['start'])>i else None),(12,s['dates'][i] if len(s['dates'])>i else None),(13,s['du'][i] if len(s['du'])>i else None)]:
         c=b.cell(row,col); c.value=datetime.fromisoformat(val) if col in (11,12) and val and status=='ok' else val if status=='ok' else None
-    b.cell(row,14,'Cotado' if status=='ok' else 'Sem entrega' if status=='unavailable' else 'Falha na coleta')
+    reason=s.get('lastAttempt',[{}]*8)[i].get('reason','') or ''
+    b.cell(row,14,'Cotado' if status=='ok' else 'CEP rejeitado' if 'inválido' in reason.lower() else 'Sem entrega' if status=='unavailable' else 'Falha na coleta')
 # Reference absence must not become a zero-cost winner.
 calc_rows=[]
 for row in range(1,b.max_row+1):
@@ -65,7 +66,7 @@ for r in hist:
     h.append([r['collectedAt'],r['offerId'],r['cep'],r['price'],r.get('freight'),r['price']+r['freight'] if isinstance(r.get('freight'),(float,int)) else None,r.get('deliveryFrom'),r.get('deliveryTo'),r.get('businessDays'),r.get('status','Legado'),r['url']])
 t=w.create_sheet('Situação da coleta');t.append(['Data/hora','ID','CEP','Situação','Motivo','URL'])
 run=json.load(open('ultima_coleta.json',encoding='utf8'))
-for r in run['attempts']:t.append([r['checkedAt'],r['offerId'],r['cep'],r['status'],r.get('error',''),r['url']])
+for r in run['attempts']:t.append([r['checkedAt'],r['offerId'],r['cep'],r['status'],r.get('error') or r.get('reason',''),r['url']])
 for sh in [h,t]:
     sh.freeze_panes='D2';sh.auto_filter.ref=sh.dimensions;sh.sheet_view.showGridLines=False
     for c in sh[1]:c.font=Font(name='Arial',bold=True,color='FFFFFF');c.fill=PatternFill('solid',fgColor='203B5B')
