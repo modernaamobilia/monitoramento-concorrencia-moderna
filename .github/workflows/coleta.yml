@@ -12,7 +12,10 @@ concurrency:
   cancel-in-progress: false
 jobs:
   coletar:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
@@ -47,6 +50,7 @@ jobs:
         with:
           path: _site
       - uses: actions/deploy-pages@v4
+        id: deployment
       - uses: actions/upload-artifact@v4
         if: always()
         with:

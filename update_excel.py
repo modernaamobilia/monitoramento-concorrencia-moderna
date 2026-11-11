@@ -1,5 +1,6 @@
 """Runner GitHub sem artifact-tool: preserva o modelo e recalcula com LibreOffice."""
 import json
+import re
 from datetime import datetime
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill
@@ -24,10 +25,32 @@ for row in range(8,8+len(p)*8):
         c=b.cell(row,col); c.value=datetime.fromisoformat(val) if col in (11,12) and val and status=='ok' else val if status=='ok' else None
     b.cell(row,14,'Cotado' if status=='ok' else 'Sem entrega' if status=='unavailable' else 'Falha na coleta')
 # Reference absence must not become a zero-cost winner.
+calc_rows=[]
 for row in range(1,b.max_row+1):
     v=b.cell(row,15).value
-    if isinstance(v,str) and v.startswith('=IF(E'):
-        b.cell(row,15,'=IF(ISNUMBER(D'+str(row)+'),'+v[1:]+',"Referência sem cotação")')
+    if isinstance(v,str) and ('Sem concorrente próximo' in v):
+        calc_rows.append(row)
+        for cell in b[row]:
+            f=cell.value
+            if isinstance(f,str) and f.startswith('='):
+                if cell.column==15:
+                    if 'Referência sem cotação' not in f: cell.value='=IF(ISNUMBER(D'+str(row)+'),'+f[1:]+',"Referência sem cotação")'
+                else:
+                    f=f.replace('IF(F'+str(row)+'>0,','IF(AND(ISNUMBER(D'+str(row)+'),F'+str(row)+'>0),')
+                    f=f.replace('IF(F'+str(row)+'=0,','IF(OR(F'+str(row)+'=0,NOT(ISNUMBER(D'+str(row)+'))),')
+                    cell.value=f
+for sh in w:
+    if sh.title in ('Anúncios','Base de cálculo'): continue
+    for row in sh:
+        for cell in row:
+            f=cell.value
+            if not isinstance(f,str) or not f.startswith('='): continue
+            # Individual comparisons require the reference's delivered total.
+            match=re.search(r"'Base de cálculo'!D(\d+)",f)
+            if match and int(match[1]) in calc_rows and ('ROUND(' in f or 'Moderna menor' in f):
+                ref="'Base de cálculo'!D"+match[1]
+                fallback='"Moderna sem cotação"' if 'Moderna menor' in f else '""'
+                if 'NOT(ISNUMBER('+ref+'))' not in f: cell.value='=IF(NOT(ISNUMBER('+ref+')),'+fallback+','+f[1:]+')'
 for name in ['Histórico','Situação da coleta']:
     if name in w: del w[name]
 h=w.create_sheet('Histórico');h.append(['Data','ID','CEP','Produto','Frete','Total','Entrega a partir','Entrega até','Dias úteis','Situação','URL'])

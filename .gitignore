@@ -5,3 +5,6 @@ inspect*.mjs
 details.mjs
 *.inspect.ndjson
 .excel-tmp/
+__pycache__/
+fix-final.mjs
+patch-freshness.mjs
