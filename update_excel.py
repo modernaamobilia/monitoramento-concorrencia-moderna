@@ -51,6 +51,13 @@ for sh in w:
                 ref="'Base de cálculo'!D"+match[1]
                 fallback='"Moderna sem cotação"' if 'Moderna menor' in f else '""'
                 if 'NOT(ISNUMBER('+ref+'))' not in f: cell.value='=IF(NOT(ISNUMBER('+ref+')),'+fallback+','+f[1:]+')'
+for idx,ref in enumerate([4,3,0,1,2]):
+    rows=[r for r in calc_rows if (r-calc_rows[0])//8==ref]
+    # Formula-linked text follows the same result schedule as the indicators.
+    first,last=rows[0],rows[-1]
+    w['Visão geral'].cell(10+idx,7,'=COUNTIF(\'Base de cálculo\'!O'+str(first)+':O'+str(last)+',"Concorrente vence")&" CEPs com concorrente menor. Ver análise por CEP para preço, frete e prazo."')
+for name in ['Visão geral','Toronto','Carolina','Closet Light','Alvorada','Coliseu']:
+    w[name]['A4']='Coleta publicada: '+d['automation']['date']+'. Falhas e indisponibilidades estão na aba Situação da coleta; valores anteriores, em Histórico.'
 for name in ['Histórico','Situação da coleta']:
     if name in w: del w[name]
 h=w.create_sheet('Histórico');h.append(['Data','ID','CEP','Produto','Frete','Total','Entrega a partir','Entrega até','Dias úteis','Situação','URL'])

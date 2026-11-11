@@ -18,6 +18,7 @@ const upgraded=template.replace(/\r?\nrender\(\);\r?\n<\/script>/,'\n'+upgrade+'
 if(!upgraded.includes('function filters()'))throw new Error('A nova interface não foi incorporada.');
 let html=upgraded.replace('/*__DATA__*/',JSON.stringify(data).replaceAll('<','\\u003c'));
 if(data.automation)html=html.replace(/<div class="stamp">[\s\S]*?<\/div>/,'<div class="stamp">Última tentativa: '+data.automation.date+' · '+data.automation.ok+' cotações completas · '+data.automation.unavailable+' sem entrega · '+data.automation.errors+' falhas. Valores antigos permanecem identificados e fora da disputa atual.</div>');
+if(data.automation)html=html.replace(/<footer>[\s\S]*?<\/footer>/,'<footer>Coleta automática diária prevista para 7h17 de Brasília, sujeita a atrasos do GitHub. Última rodada publicada: '+data.automation.date+'. O Excel e o histórico são atualizados após a validação da rodada. Falhas não equivalem a frete grátis.</footer>');
 await fs.writeFile(new URL('Comparativo_por_Concorrente_09-11-2026.html',import.meta.url),html);
 await fs.writeFile(new URL('index.html',import.meta.url),html);
 console.log('HTML independente salvo. Produtos: '+data.products.length+'; cotações: '+Object.values(data.ship).reduce((n,s)=>n+s.freights.length,0));
