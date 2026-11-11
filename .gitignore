@@ -10,3 +10,4 @@ fix-final.mjs
 fix-overview.mjs
 patch-freshness.mjs
 patch-marketplaces.mjs
+patch-assisted-ui.mjs

@@ -12,6 +12,10 @@ Moderna usa a calculadora pública do Portal do Seller. Easy House e Bom Pastor 
 
 ## Histórico e falhas
 
+Os destinos atuais estão em `destinos.json`. Em 11/11/2026, os CEPs rejeitados 30110-010 e 44001-010 foram substituídos, com autorização, por 30130-000 (Centro de Belo Horizonte capital) e 44002-024 (Centro de Feira de Santana), confirmados no ViaCEP e no formulário do Magalu. Os registros antigos conservam os CEPs originais. Não compare evolução de CEPs diferentes como se fossem o mesmo destino.
+
+O runner do GitHub continuou recebendo 403 no Magalu. As oito consultas de 11/11/2026 confirmadas pelo formulário foram guardadas em `verificacoes_assistidas/`, com valores e textos observados. `apply-assisted.mjs` só incorpora evidência da própria data, para o mesmo anúncio e os mesmos oito CEPs, quando a tentativa automática falhou. Cada linha fica marcada como assistida, com o bloqueio automático preservado. Evidências antigas nunca são reaproveitadas em outro dia. A automação diária do Magalu permanece dependente de acesso autorizado pela loja; consultas assistidas não resolvem esse bloqueio.
+
 `historico_cotacoes.json` mantém uma observação diária por anúncio, URL e CEP. Reexecuções no mesmo dia revisam essa observação, mas todas as tentativas permanecem nos arquivos imutáveis de `coletas/`, com horário UTC. `historico_inicial.json` preserva a base anterior à automação. `ultima_coleta.json` registra 184 situações, inclusive falhas. Indisponibilidade confirmada é diferente de erro técnico; frete ausente nunca é zero.
 
 O painel só inclui na disputa as cotações completas da rodada publicada. A última cotação válida permanece no histórico. Uma alteração de preço sem frete correspondente não forma um novo total válido. A condição de menor custo entregue não confirma posição de buybox em um marketplace.

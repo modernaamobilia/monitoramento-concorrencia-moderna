@@ -17,9 +17,10 @@ accepted={'T2','C1','C2','A1','A2','A3','L2','C4','L3','K3','K1','K2'}
 products={p['id']:p for p in data['products']}
 b=w['Base de cálculo']
 checked=0
+ceps=[x['cep'] for x in json.load(open('destinos.json',encoding='utf8'))]
 for row in range(1,b.max_row+1):
     cep=b.cell(row,3).value
-    if cep not in ('01001-001','13010-001','20010-010','26010-010','30110-010','38400-010','40010-010','44001-010'): continue
+    if cep not in ceps: continue
     actual=b.cell(row,15).value
     if actual not in ('Sem concorrente próximo','Sem cotação concorrente','Concorrente vence','Moderna vence','Empate','Referência sem cotação'): continue
     # Row order of the comparison schedule is fixed in the supplied workbook.

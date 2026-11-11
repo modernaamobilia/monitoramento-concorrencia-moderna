@@ -1,0 +1,10 @@
+[
+ {"city":"São Paulo","cep":"01001-001","state":"SP"},
+ {"city":"Campinas","cep":"13010-001","state":"SP"},
+ {"city":"Rio de Janeiro","cep":"20010-010","state":"RJ"},
+ {"city":"Nova Iguaçu","cep":"26010-010","state":"RJ"},
+ {"city":"Belo Horizonte","cep":"30130-000","state":"MG","address":"Avenida Afonso Pena, Centro, até 653 - lado ímpar","previousCep":"30110-010","verifiedOn":"2026-11-11","source":"https://viacep.com.br/ws/30130000/json/"},
+ {"city":"Uberlândia","cep":"38400-010","state":"MG"},
+ {"city":"Salvador","cep":"40010-010","state":"BA"},
+ {"city":"Feira de Santana","cep":"44002-024","state":"BA","address":"Avenida Senhor dos Passos, Centro, de 324 a 980 - lado par","previousCep":"44001-010","verifiedOn":"2026-11-11","source":"https://viacep.com.br/ws/44002024/json/"}
+]

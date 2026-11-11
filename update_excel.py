@@ -10,7 +10,15 @@ d=json.load(open('dados_revisados.json',encoding='utf8'))
 hist=json.load(open('historico_cotacoes.json',encoding='utf8'))
 w=load_workbook(path)
 p={x['id']:x for x in d['products']}
-ceps=['01001-001','13010-001','20010-010','26010-010','30110-010','38400-010','40010-010','44001-010']
+destinations=json.load(open('destinos.json',encoding='utf8'))
+ceps=[x['cep'] for x in destinations]
+for sh in w:
+    if sh.title in ('Histórico','Situação da coleta'): continue
+    for row in sh:
+        for cell in row:
+            if isinstance(cell.value,str) and not cell.value.startswith('='):
+                for dest in destinations:
+                    if dest.get('previousCep'): cell.value=cell.value.replace(dest['previousCep'],dest['cep'])
 a=w['Anúncios']
 for row in range(7,7+len(p)):
     x=p[a.cell(row,1).value]
@@ -61,12 +69,12 @@ for name in ['Visão geral','Toronto','Carolina','Closet Light','Alvorada','Coli
     w[name]['A4']='Coleta publicada: '+d['automation']['date']+'. Falhas e indisponibilidades estão na aba Situação da coleta; valores anteriores, em Histórico.'
 for name in ['Histórico','Situação da coleta']:
     if name in w: del w[name]
-h=w.create_sheet('Histórico');h.append(['Data','ID','CEP','Produto','Frete','Total','Entrega a partir','Entrega até','Dias úteis','Situação','URL'])
+h=w.create_sheet('Histórico');h.append(['Data','ID','CEP','Produto','Frete','Total','Entrega a partir','Entrega até','Dias úteis','Situação','Origem','URL'])
 for r in hist:
-    h.append([r['collectedAt'],r['offerId'],r['cep'],r['price'],r.get('freight'),r['price']+r['freight'] if isinstance(r.get('freight'),(float,int)) else None,r.get('deliveryFrom'),r.get('deliveryTo'),r.get('businessDays'),r.get('status','Legado'),r['url']])
-t=w.create_sheet('Situação da coleta');t.append(['Data/hora','ID','CEP','Situação','Motivo','URL'])
+    h.append([r['collectedAt'],r['offerId'],r['cep'],r['price'],r.get('freight'),r['price']+r['freight'] if isinstance(r.get('freight'),(float,int)) else None,r.get('deliveryFrom'),r.get('deliveryTo'),r.get('businessDays'),r.get('status','Legado'),'Assistida no navegador' if r.get('source')=='browser_assisted' else 'Automática' if r.get('status') else 'Legado',r['url']])
+t=w.create_sheet('Situação da coleta');t.append(['Data/hora','ID','CEP','Situação','Origem','Motivo','Falha na automação','URL'])
 run=json.load(open('ultima_coleta.json',encoding='utf8'))
-for r in run['attempts']:t.append([r['checkedAt'],r['offerId'],r['cep'],r['status'],r.get('error') or r.get('reason',''),r['url']])
+for r in run['attempts']:t.append([r['checkedAt'],r['offerId'],r['cep'],r['status'],'Assistida no navegador' if r.get('source')=='browser_assisted' else 'Automática',r.get('error') or r.get('reason',''),r.get('automaticError',''),r['url']])
 for sh in [h,t]:
     sh.freeze_panes='D2';sh.auto_filter.ref=sh.dimensions;sh.sheet_view.showGridLines=False
     for c in sh[1]:c.font=Font(name='Arial',bold=True,color='FFFFFF');c.fill=PatternFill('solid',fgColor='203B5B')

@@ -1,7 +1,8 @@
 import fs from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {parseMadeiraQuote} from './marketplace-parsers.mjs';
-export const CEPS=['01001-001','13010-001','20010-010','26010-010','30110-010','38400-010','40010-010','44001-010'];
+export const DESTINATIONS=JSON.parse(await fs.readFile(new URL('destinos.json',import.meta.url),'utf8'));
+export const CEPS=DESTINATIONS.map(x=>x.cep);
 const round=n=>Math.round(n*100)/100;
 const money=s=>/\d/.test(s)?Number(s.replace(/[^\d,]/g,'').replace(',','.')):NaN;
 const plain=s=>s.replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim();
@@ -40,7 +41,7 @@ export async function prepare(p,pins){
  throw Error('Loja sem adaptador');
 }
 export async function collect(){
-const data=JSON.parse(await fs.readFile('dados_revisados.json')),history=JSON.parse(await fs.readFile('historico_cotacoes.json'));let pins={};try{pins=JSON.parse(await fs.readFile('variantes_aprovadas.json'));}catch{}
+const data=JSON.parse(await fs.readFile('dados_revisados.json')),history=JSON.parse(await fs.readFile('historico_cotacoes.json'));data.destinations=DESTINATIONS;let pins={};try{pins=JSON.parse(await fs.readFile('variantes_aprovadas.json'));}catch{}
 const at=new Date().toISOString(),day=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'}).format(new Date());const attempts=[];
 for(const p of data.products){let fn,error;try{fn=await prepare(p,pins);}catch(e){error=e.message;}
  for(let i=0;i<8;i++){let row={offerId:p.id,url:p.url,cep:CEPS[i],collectedAt:day,checkedAt:at};try{if(error)throw Error(error);const q=validate(await fn(CEPS[i]));row={...row,...q};}catch(e){row={...row,status:'error',error:e.message};}attempts.push(row);console.log(p.id,CEPS[i],row.status,row.error||row.freight||'');await new Promise(r=>setTimeout(r,200));}
