@@ -656,50 +656,58 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
     "M2": {
       "freights": [
-        76.15,
+        91.33,
         100.92,
         37.11,
         37.11,
@@ -709,7 +717,7 @@
         132.55
       ],
       "dates": [
-        "2026-12-01",
+        "2026-11-18",
         "2026-11-25",
         "2026-11-18",
         "2026-11-18",
@@ -760,44 +768,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -864,50 +880,58 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
     "M4": {
       "freights": [
-        2.42,
+        9.95,
         44.33,
         0,
         0,
@@ -917,7 +941,7 @@
         116.97
       ],
       "dates": [
-        "2026-11-25",
+        "2026-11-18",
         "2026-11-25",
         "2026-11-18",
         "2026-11-18",
@@ -968,44 +992,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -1072,44 +1104,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -1176,44 +1216,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -1245,7 +1293,8 @@
         40,
         null,
         69,
-        48
+        48,
+        null
       ],
       "start": [
         "2027-01-14",
@@ -1254,68 +1303,77 @@
         "2027-01-08",
         null,
         "2027-02-24",
-        "2027-01-20"
+        "2027-01-20",
+        null
       ],
       "collectedAt": [
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
-        null,
         "2026-11-11",
         "2026-11-11",
-        null
+        "2026-11-11",
+        "2026-11-11"
       ],
       "status": [
         "ok",
         "ok",
         "ok",
         "ok",
-        "legacy",
+        "unavailable",
         "ok",
         "ok",
-        "legacy"
+        "unavailable"
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         }
       ]
     },
@@ -1382,44 +1440,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -1431,8 +1497,8 @@
         0,
         0,
         0,
-        159.9,
-        229.9
+        0,
+        0
       ],
       "dates": [
         "2026-11-30",
@@ -1486,44 +1552,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -1539,93 +1613,103 @@
         null
       ],
       "start": [
-        "2026-12-14",
+        "2026-12-15",
+        "2026-12-03",
         "2026-12-02",
-        "2026-12-01",
-        "2026-12-01",
+        "2026-12-02",
         null,
-        "2027-01-18",
-        "2026-12-10"
+        "2027-01-19",
+        "2026-12-11",
+        null
       ],
       "dates": [
-        "2026-12-17",
+        "2026-12-18",
+        "2026-12-08",
         "2026-12-07",
-        "2026-12-04",
-        "2026-12-04",
+        "2026-12-07",
         null,
-        "2027-01-21",
-        "2026-12-15",
+        "2027-01-22",
+        "2026-12-16",
         null
       ],
       "du": [
-        25,
+        26,
+        18,
         17,
-        16,
-        16,
+        17,
         null,
-        46,
-        23
+        47,
+        24,
+        null
       ],
       "collectedAt": [
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
-        null,
         "2026-11-11",
         "2026-11-11",
-        null
+        "2026-11-11",
+        "2026-11-11"
       ],
       "status": [
         "ok",
         "ok",
         "ok",
         "ok",
-        "legacy",
+        "unavailable",
         "ok",
         "ok",
-        "legacy"
+        "unavailable"
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         }
       ]
     },
@@ -1692,44 +1776,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -1745,93 +1837,103 @@
         null
       ],
       "dates": [
-        "2026-12-17",
+        "2026-12-18",
+        "2026-12-08",
         "2026-12-07",
-        "2026-12-04",
-        "2026-12-04",
+        "2026-12-07",
         null,
-        "2027-01-21",
-        "2026-12-15",
+        "2027-01-22",
+        "2026-12-16",
         null
       ],
       "du": [
-        25,
+        26,
+        18,
         17,
-        16,
-        16,
+        17,
         null,
-        46,
-        23
+        47,
+        24,
+        null
       ],
       "start": [
-        "2026-12-14",
+        "2026-12-15",
+        "2026-12-03",
         "2026-12-02",
-        "2026-12-01",
-        "2026-12-01",
+        "2026-12-02",
         null,
-        "2027-01-18",
-        "2026-12-10"
+        "2027-01-19",
+        "2026-12-11",
+        null
       ],
       "collectedAt": [
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
-        null,
         "2026-11-11",
         "2026-11-11",
-        null
+        "2026-11-11",
+        "2026-11-11"
       ],
       "status": [
         "ok",
         "ok",
         "ok",
         "ok",
-        "legacy",
+        "unavailable",
         "ok",
         "ok",
-        "legacy"
+        "unavailable"
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         }
       ]
     },
@@ -1863,7 +1965,8 @@
         18,
         null,
         46,
-        30
+        30,
+        null
       ],
       "start": [
         "2026-12-14",
@@ -1872,74 +1975,83 @@
         "2026-12-03",
         null,
         "2027-01-18",
-        "2026-12-21"
+        "2026-12-21",
+        null
       ],
       "collectedAt": [
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
-        null,
         "2026-11-11",
         "2026-11-11",
-        null
+        "2026-11-11",
+        "2026-11-11"
       ],
       "status": [
         "ok",
         "ok",
         "ok",
         "ok",
-        "legacy",
+        "unavailable",
         "ok",
         "ok",
-        "legacy"
+        "unavailable"
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         }
       ]
     },
     "A1": {
       "freights": [
-        158.91,
+        163,
         199.45,
         150.39,
         150.39,
@@ -1949,7 +2061,7 @@
         null
       ],
       "dates": [
-        "2026-11-25",
+        "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-26",
@@ -1959,83 +2071,93 @@
         null
       ],
       "du": [
-        9,
+        8,
         9,
         10,
         10,
         null,
         10,
-        16
+        16,
+        null
       ],
       "start": [
-        "2026-11-25",
+        "2026-11-24",
         "2026-11-25",
         "2026-11-26",
         "2026-11-26",
         null,
         "2026-11-26",
-        "2026-12-04"
+        "2026-12-04",
+        null
       ],
       "collectedAt": [
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
-        null,
         "2026-11-11",
         "2026-11-11",
-        null
+        "2026-11-11",
+        "2026-11-11"
       ],
       "status": [
         "ok",
         "ok",
         "ok",
         "ok",
-        "legacy",
+        "unavailable",
         "ok",
         "ok",
-        "legacy"
+        "unavailable"
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         }
       ]
     },
@@ -2102,44 +2224,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -2155,93 +2285,103 @@
         null
       ],
       "dates": [
-        "2026-12-17",
+        "2026-12-18",
+        "2026-12-08",
         "2026-12-07",
-        "2026-12-04",
-        "2026-12-04",
+        "2026-12-07",
         null,
-        "2027-01-21",
-        "2026-12-15",
+        "2027-01-22",
+        "2026-12-16",
         null
       ],
       "du": [
-        25,
+        26,
+        18,
         17,
-        16,
-        16,
+        17,
         null,
-        46,
-        23
+        47,
+        24,
+        null
       ],
       "start": [
-        "2026-12-14",
+        "2026-12-15",
+        "2026-12-03",
         "2026-12-02",
-        "2026-12-01",
-        "2026-12-01",
+        "2026-12-02",
         null,
-        "2027-01-18",
-        "2026-12-10"
+        "2027-01-19",
+        "2026-12-11",
+        null
       ],
       "collectedAt": [
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
-        null,
         "2026-11-11",
         "2026-11-11",
-        null
+        "2026-11-11",
+        "2026-11-11"
       ],
       "status": [
         "ok",
         "ok",
         "ok",
         "ok",
-        "legacy",
+        "unavailable",
         "ok",
         "ok",
-        "legacy"
+        "unavailable"
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         }
       ]
     },
@@ -2308,44 +2448,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -2413,44 +2561,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "unavailable",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -2462,8 +2618,8 @@
         0,
         0,
         0,
-        149.99,
-        199.99
+        0,
+        0
       ],
       "start": [
         "2026-11-24",
@@ -2517,44 +2673,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -2566,8 +2730,8 @@
         0,
         0,
         0,
-        99.9,
-        149.9
+        0,
+        0
       ],
       "start": [
         "2026-11-17",
@@ -2621,44 +2785,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     },
@@ -2680,7 +2852,8 @@
         "2026-12-02",
         null,
         "2026-12-09",
-        "2026-12-11"
+        "2026-12-11",
+        null
       ],
       "dates": [
         "2026-11-27",
@@ -2699,68 +2872,77 @@
         14,
         null,
         19,
-        21
+        21,
+        null
       ],
       "collectedAt": [
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
         "2026-11-11",
-        null,
         "2026-11-11",
         "2026-11-11",
-        null
+        "2026-11-11",
+        "2026-11-11"
       ],
       "status": [
         "ok",
         "ok",
         "ok",
         "ok",
-        "legacy",
+        "unavailable",
         "ok",
         "ok",
-        "legacy"
+        "unavailable"
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
-          "status": "error",
-          "error": "Cotação Madeira com erro"
+          "at": "2026-11-11T19:11:10.996Z",
+          "status": "unavailable",
+          "error": null,
+          "reason": "Desculpe, não entregamos para esta região."
         }
       ]
     },
@@ -2818,44 +3000,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "error",
-          "error": "HTTP 403"
+          "error": "Magalu bloqueou o navegador automático (403)",
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "error",
-          "error": "HTTP 403"
+          "error": "Magalu bloqueou o navegador automático (403)",
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "error",
-          "error": "HTTP 403"
+          "error": "Magalu bloqueou o navegador automático (403)",
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "error",
-          "error": "HTTP 403"
+          "error": "Magalu bloqueou o navegador automático (403)",
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "error",
-          "error": "HTTP 403"
+          "error": "Magalu bloqueou o navegador automático (403)",
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "error",
-          "error": "HTTP 403"
+          "error": "Magalu bloqueou o navegador automático (403)",
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "error",
-          "error": "HTTP 403"
+          "error": "Magalu bloqueou o navegador automático (403)",
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "error",
-          "error": "HTTP 403"
+          "error": "Magalu bloqueou o navegador automático (403)",
+          "reason": null
         }
       ]
     },
@@ -2922,44 +3112,52 @@
       ],
       "lastAttempt": [
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         },
         {
-          "at": "2026-11-11T17:05:22.610Z",
+          "at": "2026-11-11T19:11:10.996Z",
           "status": "ok",
-          "error": null
+          "error": null,
+          "reason": null
         }
       ]
     }
@@ -3199,11 +3397,11 @@
     ]
   ],
   "automation": {
-    "checkedAt": "2026-11-11T17:05:22.610Z",
+    "checkedAt": "2026-11-11T19:11:10.996Z",
     "date": "2026-11-11",
     "total": 184,
     "ok": 146,
-    "unavailable": 16,
-    "errors": 22
+    "unavailable": 30,
+    "errors": 8
   }
 }
