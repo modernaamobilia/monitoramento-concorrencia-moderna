@@ -11,3 +11,4 @@ fix-overview.mjs
 patch-freshness.mjs
 patch-marketplaces.mjs
 patch-assisted-ui.mjs
+patch-store-ceps.mjs

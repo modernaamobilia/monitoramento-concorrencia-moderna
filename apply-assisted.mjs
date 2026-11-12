@@ -1,15 +1,16 @@
 import fs from 'node:fs/promises';import {fileURLToPath} from 'node:url';
 import {CEPS,validate} from './collector.mjs';import {parseMagaluShipping} from './marketplace-parsers.mjs';
+import {offerCeps} from './destinations.mjs';
 export function applyAssisted(data,history,run,evidence,importedAt=new Date().toISOString()){
  const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'}).format(new Date(importedAt));
  if(evidence.observedDate!==today||run.summary.date!==today)return 0;
  const p=data.products.find(x=>x.id===evidence.offerId);if(!p||p.url!==evidence.url)throw Error('Verificação assistida não corresponde ao anúncio aprovado');
- if(evidence.quotes.length!==8||new Set(evidence.quotes.map(x=>x.cep)).size!==8||evidence.quotes.some(x=>!CEPS.includes(x.cep)))throw Error('Verificação assistida não corresponde aos 8 CEPs atuais');
+ const actualCeps=offerCeps(p);if(evidence.quotes.length!==8||new Set(evidence.quotes.map(x=>x.cep)).size!==8||evidence.quotes.some(x=>!actualCeps.includes(x.cep)))throw Error('Verificação assistida não corresponde aos 8 CEPs atuais desta loja');
  let count=0;
  for(const q of evidence.quotes){const index=run.attempts.findIndex(x=>x.offerId===p.id&&x.url===p.url&&x.cep===q.cep);const automatic=run.attempts[index];if(!automatic||automatic.status!=='error')continue;
  const values=validate({price:evidence.price,...parseMagaluShipping(q.text,new Date(today+'T12:00:00Z')),status:'ok'});
- const row={offerId:p.id,url:p.url,cep:q.cep,collectedAt:today,checkedAt:importedAt,observedDate:today,source:'browser_assisted',evidence:evidence.method,automaticStatus:automatic.status,automaticError:automatic.error,...values};run.attempts[index]=row;
- const s=data.ship[p.id],i=CEPS.indexOf(q.cep);s.collectedAt||=Array(8).fill(null);s.status||=Array(8).fill('legacy');s.lastAttempt||=Array(8).fill(null);
+ const i=actualCeps.indexOf(q.cep);const row={offerId:p.id,url:p.url,cep:q.cep,requestedCep:CEPS[i],destinationIndex:i,collectedAt:today,checkedAt:importedAt,observedDate:today,source:'browser_assisted',evidence:evidence.method,automaticStatus:automatic.status,automaticError:automatic.error,...values};run.attempts[index]=row;
+ const s=data.ship[p.id];s.ceps=actualCeps;s.collectedAt||=Array(8).fill(null);s.status||=Array(8).fill('legacy');s.lastAttempt||=Array(8).fill(null);
  s.freights[i]=values.freight;s.start[i]=values.deliveryFrom||null;s.dates[i]=values.deliveryTo||null;s.du[i]=values.businessDays||null;s.collectedAt[i]=today;s.status[i]='ok';s.lastAttempt[i]={at:importedAt,status:'ok',source:'browser_assisted',automaticError:automatic.error};
  const old=history.findIndex(x=>x.offerId===p.id&&x.url===p.url&&x.cep===q.cep&&x.collectedAt===today);if(old<0)history.push(row);else history[old]=row;count++;
  }

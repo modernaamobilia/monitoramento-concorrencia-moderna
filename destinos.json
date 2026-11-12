@@ -3,8 +3,8 @@
  {"city":"Campinas","cep":"13010-001","state":"SP"},
  {"city":"Rio de Janeiro","cep":"20010-010","state":"RJ"},
  {"city":"Nova Iguaçu","cep":"26010-010","state":"RJ"},
- {"city":"Belo Horizonte","cep":"30130-000","state":"MG","address":"Avenida Afonso Pena, Centro, até 653 - lado ímpar","previousCep":"30110-010","verifiedOn":"2026-11-11","source":"https://viacep.com.br/ws/30130000/json/"},
+ {"city":"Belo Horizonte","cep":"30110-010","state":"MG","overrides":{"MadeiraMadeira":"30130-000","Magalu":"30130-000"},"alternativeAddress":"Avenida Afonso Pena, Centro, até 653 - lado ímpar","reason":"Substituição somente nas lojas que rejeitaram o CEP original em 11/11/2026.","verifiedOn":"2026-11-11","source":"https://viacep.com.br/ws/30130000/json/"},
  {"city":"Uberlândia","cep":"38400-010","state":"MG"},
  {"city":"Salvador","cep":"40010-010","state":"BA"},
- {"city":"Feira de Santana","cep":"44002-024","state":"BA","address":"Avenida Senhor dos Passos, Centro, de 324 a 980 - lado par","previousCep":"44001-010","verifiedOn":"2026-11-11","source":"https://viacep.com.br/ws/44002024/json/"}
+ {"city":"Feira de Santana","cep":"44001-010","state":"BA","overrides":{"MadeiraMadeira":"44002-024","Magalu":"44002-024"},"alternativeAddress":"Avenida Senhor dos Passos, Centro, de 324 a 980 - lado par","reason":"Substituição somente nas lojas que rejeitaram o CEP original em 11/11/2026.","verifiedOn":"2026-11-11","source":"https://viacep.com.br/ws/44002024/json/"}
 ]

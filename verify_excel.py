@@ -12,12 +12,21 @@ assert w['Histórico'].max_row>184
 assert w['Situação da coleta'].max_row==185
 data=json.load(open('dados_revisados.json',encoding='utf8'))
 run=json.load(open('ultima_coleta.json',encoding='utf8'))
-quotes={(r['offerId'],r['cep']):r for r in run['attempts']}
+quotes={(r['offerId'],r.get('requestedCep',r['cep'])):r for r in run['attempts']}
 accepted={'T2','C1','C2','A1','A2','A3','L2','C4','L3','K3','K1','K2'}
 products={p['id']:p for p in data['products']}
 b=w['Base de cálculo']
 checked=0
-ceps=[x['cep'] for x in json.load(open('destinos.json',encoding='utf8'))]
+destinations=json.load(open('destinos.json',encoding='utf8'))
+ceps=[x['cep'] for x in destinations]
+for row in range(8,192):
+    id=b.cell(row,1).value;city=b.cell(row,3).value
+    nominal=next(x['cep'] for x in destinations if x['city']==city)
+    q=quotes[(id,nominal)]
+    assert b.cell(row,4).value==q['cep'],('CEP da linha diferente da consulta',id,city)
+    if q['status']=='ok':
+        assert abs(b.cell(row,8).value-q['price'])<0.001,(id,'preço')
+        assert abs(b.cell(row,9).value-q['freight'])<0.001,(id,'frete')
 for row in range(1,b.max_row+1):
     cep=b.cell(row,3).value
     if cep not in ceps: continue

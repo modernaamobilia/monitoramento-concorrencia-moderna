@@ -12,7 +12,7 @@ Moderna usa a calculadora pública do Portal do Seller. Easy House e Bom Pastor 
 
 ## Histórico e falhas
 
-Os destinos atuais estão em `destinos.json`. Em 11/11/2026, os CEPs rejeitados 30110-010 e 44001-010 foram substituídos, com autorização, por 30130-000 (Centro de Belo Horizonte capital) e 44002-024 (Centro de Feira de Santana), confirmados no ViaCEP e no formulário do Magalu. Os registros antigos conservam os CEPs originais. Não compare evolução de CEPs diferentes como se fossem o mesmo destino.
+Os destinos nominais continuam em `destinos.json`: Belo Horizonte 30110-010 e Feira de Santana 44001-010. Apenas MadeiraMadeira e Magalu, que rejeitaram esses CEPs, usam 30130-000 (Centro de Belo Horizonte capital) e 44002-024 (Centro de Feira de Santana). Moderna, Bom Pastor, Madesa e o site da Easy House mantêm os originais. Cada registro guarda o CEP nominal e o CEP consultado; painel e Excel sinalizam comparações com CEPs diferentes na mesma cidade. Os registros antigos conservam o CEP efetivamente consultado. Não compare evolução de CEPs diferentes como se fossem o mesmo endereço.
 
 O runner do GitHub continuou recebendo 403 no Magalu. As oito consultas de 11/11/2026 confirmadas pelo formulário foram guardadas em `verificacoes_assistidas/`, com valores e textos observados. `apply-assisted.mjs` só incorpora evidência da própria data, para o mesmo anúncio e os mesmos oito CEPs, quando a tentativa automática falhou. Cada linha fica marcada como assistida, com o bloqueio automático preservado. Evidências antigas nunca são reaproveitadas em outro dia. A automação diária do Magalu permanece dependente de acesso autorizado pela loja; consultas assistidas não resolvem esse bloqueio.
 

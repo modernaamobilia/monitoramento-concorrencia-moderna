@@ -1,8 +1,8 @@
 import fs from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {parseMadeiraQuote} from './marketplace-parsers.mjs';
-export const DESTINATIONS=JSON.parse(await fs.readFile(new URL('destinos.json',import.meta.url),'utf8'));
-export const CEPS=DESTINATIONS.map(x=>x.cep);
+import {DESTINATIONS,CEPS,quoteCep} from './destinations.mjs';
+export {DESTINATIONS,CEPS} from './destinations.mjs';
 const round=n=>Math.round(n*100)/100;
 const money=s=>/\d/.test(s)?Number(s.replace(/[^\d,]/g,'').replace(',','.')):NaN;
 const plain=s=>s.replace(/<[^>]+>/g,' ').replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim();
@@ -44,11 +44,11 @@ export async function collect(){
 const data=JSON.parse(await fs.readFile('dados_revisados.json')),history=JSON.parse(await fs.readFile('historico_cotacoes.json'));data.destinations=DESTINATIONS;let pins={};try{pins=JSON.parse(await fs.readFile('variantes_aprovadas.json'));}catch{}
 const at=new Date().toISOString(),day=new Intl.DateTimeFormat('sv-SE',{timeZone:'America/Sao_Paulo'}).format(new Date());const attempts=[];
 for(const p of data.products){let fn,error;try{fn=await prepare(p,pins);}catch(e){error=e.message;}
- for(let i=0;i<8;i++){let row={offerId:p.id,url:p.url,cep:CEPS[i],collectedAt:day,checkedAt:at};try{if(error)throw Error(error);const q=validate(await fn(CEPS[i]));row={...row,...q};}catch(e){row={...row,status:'error',error:e.message};}attempts.push(row);console.log(p.id,CEPS[i],row.status,row.error||row.freight||'');await new Promise(r=>setTimeout(r,200));}
+ for(let i=0;i<8;i++){const actualCep=quoteCep(p,i);let row={offerId:p.id,url:p.url,requestedCep:CEPS[i],cep:actualCep,destinationIndex:i,collectedAt:day,checkedAt:at};try{if(error)throw Error(error);const q=validate(await fn(actualCep));row={...row,...q};}catch(e){row={...row,status:'error',error:e.message};}attempts.push(row);console.log(p.id,actualCep,row.status,row.error||row.freight||'');await new Promise(r=>setTimeout(r,200));}
  await fn?.close?.();
 }
 // Only complete per-offer price cohorts can replace the global display price.
-for(const p of data.products){const rows=attempts.filter(x=>x.offerId===p.id);const prices=[...new Set(rows.filter(x=>x.status!=='error').map(x=>x.price))];const s=data.ship[p.id];s.collectedAt||=Array(8).fill(null);s.status||=Array(8).fill('legacy');s.lastAttempt=rows.map(r=>({at,status:r.status,error:r.error||null,reason:r.reason||null}));if(prices.length!==1){if(prices.length>1)for(const r of rows){r.status='error';r.error='Preço varia por CEP: requer comparação com preço regional';s.lastAttempt[CEPS.indexOf(r.cep)]={at,status:'error',error:r.error};}continue;}
+for(const p of data.products){const rows=attempts.filter(x=>x.offerId===p.id);const prices=[...new Set(rows.filter(x=>x.status!=='error').map(x=>x.price))];const s=data.ship[p.id];s.ceps=rows.map(r=>r.cep);s.collectedAt||=Array(8).fill(null);s.status||=Array(8).fill('legacy');s.lastAttempt=rows.map(r=>({at,status:r.status,error:r.error||null,reason:r.reason||null}));if(prices.length!==1){if(prices.length>1)for(const r of rows){r.status='error';r.error='Preço varia por CEP: requer comparação com preço regional';s.lastAttempt[r.destinationIndex]={at,status:'error',error:r.error};}continue;}
  for(let i=0;i<8;i++){let r=rows[i];s.lastAttempt[i]={at,status:r.status,error:r.error||null,reason:r.reason||null};if(r.status==='error')continue;s.freights[i]=r.status==='ok'?r.freight:null;s.dates[i]=r.deliveryTo||null;s.start[i]=r.deliveryFrom||null;s.du[i]=r.businessDays||null;s.collectedAt[i]=day;s.status[i]=r.status;}
  p.price=prices[0];p.priceCollectedAt=day;
 }
