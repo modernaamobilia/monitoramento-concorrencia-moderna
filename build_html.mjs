@@ -14,7 +14,7 @@ for(const p of data.products.filter(p=>!data.automation&&!p.priceCollectedAt))fo
 data.history=history;
 await fs.writeFile(new URL('historico_cotacoes.json',import.meta.url),JSON.stringify(history,null,2));
 const template=await fs.readFile(new URL('buybox_template.html',import.meta.url),'utf8');
-const upgrade=(await fs.readFile(new URL('panel_upgrade.js',import.meta.url),'utf8'))+'\n'+(await fs.readFile(new URL('panel_filters_history.js',import.meta.url),'utf8'))+'\n'+(await fs.readFile(new URL('panel_automation.js',import.meta.url),'utf8'));
+const upgrade=(await fs.readFile(new URL('panel_upgrade.js',import.meta.url),'utf8'))+'\n'+(await fs.readFile(new URL('panel_filters_history.js',import.meta.url),'utf8'))+'\n'+(await fs.readFile(new URL('panel_automation.js',import.meta.url),'utf8'))+'\n'+(await fs.readFile(new URL('panel_display.js',import.meta.url),'utf8'));
 const upgraded=template.replace(/\r?\nrender\(\);\r?\n<\/script>/,'\n'+upgrade+'\nrender();\n</script>');
 if(!upgraded.includes('function filters()'))throw new Error('A nova interface não foi incorporada.');
 let html=upgraded.replace('/*__DATA__*/',JSON.stringify(data).replaceAll('<','\\u003c'));
